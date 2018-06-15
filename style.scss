@@ -196,8 +196,12 @@ img {
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
-  font-size: 36px;
+  font-size: 28px;
   letter-spacing: 1px;
+	
+  @include mobile {
+	font-size: 22px;	  
+  }
 }
 
 .site-description {
