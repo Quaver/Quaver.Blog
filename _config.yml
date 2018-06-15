@@ -18,14 +18,14 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: me@swan.moe
   facebook: QuaverGame
   flickr:
   github: Swan
   instagram: QuaverGame
   linkedin:
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: Anything
   twitter: QuaverGame
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
