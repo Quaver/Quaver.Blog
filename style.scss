@@ -18,9 +18,9 @@ html {
 }
 
 body {
-  background: $white;
+	background: $white;
   font: 18px/1.4 $helvetica;
-  color: $gray;
+  color: $darkGray;
 }
 
 .container {
@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkGray;
+  color: $darkerGray;
   font-weight: bold;
 
   line-height: 1.7;
@@ -68,7 +68,7 @@ p {
   margin: 15px 0;
 }
 
-a {n
+a {
   color: $blue;
   text-decoration: none;
 	cursor: pointer;
@@ -215,7 +215,6 @@ nav {
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
-  background: $navBackground;
 
   @include mobile {
     float: none;
