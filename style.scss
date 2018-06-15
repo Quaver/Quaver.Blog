@@ -283,6 +283,11 @@ nav {
   position: absolute;
   bottom: 0;
   width: 100%;
+	
+  @include mobile {
+	position: static;
+	bottom: auto;
+  }
 }
 
 footer {
