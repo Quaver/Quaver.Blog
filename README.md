@@ -11,6 +11,6 @@
 
 # LICENSE
 
-The content in the `_posts` section of the repository is licensed under [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode). See the [License]() file for more information regarding this. In short, you may use the contents in the `_posts` section of the repository as long as it is not in a commercial manner.
+The content in the `_posts` section of the repository is licensed under [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode). See the [POSTS_LICENSE](https://github.com/Swan/Quaver.Blog/blob/master/POSTS_LICENSE.md) file for more information regarding this. In short, you may use the contents in the `_posts` section of the repository as long as it is not in a commercial manner.
 
 This blog is also powered by Jekyll Now, which is licensed under the MIT LICENSE - which you can view [here](https://github.com/Swan/Quaver.Blog/blob/master/LICENSE).
