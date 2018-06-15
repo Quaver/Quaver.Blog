@@ -68,7 +68,7 @@ p {
   margin: 15px 0;
 }
 
-a {
+a {n
   color: $blue;
   text-decoration: none;
 	cursor: pointer;
@@ -215,6 +215,7 @@ nav {
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
+  background: $navBackground;
 
   @include mobile {
     float: none;
