@@ -2,21 +2,14 @@
 ---
 
 @import "{{ site.theme }}";
-
-
-// Core variables and mixins
 @import "variables";
 @import "custom";
 @import "mixins";
-
-// Core CSS
 @import "type";
 @import "header";
 @import "footer";
 @import "layouts";
 @import "section";
-
-// Components
 @import "hero";
 @import "buttons";
 @import "dropdown";
