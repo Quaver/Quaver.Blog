@@ -1,0 +1,9 @@
+@mixin alert($color, $bg, $border) {
+  color: $color;
+  background-color: $bg;
+  border-color: $border;
+
+	b, strong {
+		color: darken($color, 5%);
+	}
+}

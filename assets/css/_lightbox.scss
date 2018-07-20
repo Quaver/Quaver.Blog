@@ -1,0 +1,116 @@
+.lightbox {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1090;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: inline-block;
+    font-size: 20px;
+
+    &:focus,
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .lightbox-overlay {
+    position: absolute;
+    background-color: rgba(37, 37, 37, .93);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .lightbox-block {
+    position: relative;
+    display: table;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0, .1);
+
+    .lightbox-img {
+      display: table-cell;
+      vertical-align: top;
+      position: relative;
+      text-align: center;
+
+      img {
+        width: auto;
+        max-width: 100%;
+        max-height: 800px;
+      }
+
+      &:hover {
+        .lightbox-prev,
+        .lightbox-next {
+          opacity: 1;
+        }
+      }
+    }
+
+    .lightbox-comment {
+      width: 400px;
+      height: 100%;
+      padding: 10px 25px;
+      display: table-cell;
+      background-color: #fff;
+      overflow: hidden !important;
+
+      .fb-comments {
+        display: block !important;
+
+        span {
+          display: inline-block;
+          max-height: 800px;
+          margin-right: -50px;
+          overflow-y: scroll !important;
+
+          iframe {
+            position: static !important;
+          }
+        }
+      }
+    }
+
+    .lightbox-prev,
+    .lightbox-next {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 13%;
+      color: #fff;
+      text-align: center;
+      font-size: 30px;
+      opacity: 0;
+      transition: .2s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+
+    .lightbox-prev {
+      left: 0;
+    }
+
+    .lightbox-next {
+      right: 0;
+    }
+
+    .lightbox-video {
+      width: 1360px;
+    }
+  }
+}

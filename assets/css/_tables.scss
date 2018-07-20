@@ -1,0 +1,92 @@
+.table {
+	margin-bottom: 0;
+}
+
+.table > thead > tr > th {
+	border-top: 0;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+	border-color: #E6E6E6;
+	padding: 8px;
+}
+
+.table > thead > tr > th {
+	border-bottom: 0;
+	padding: 15px 5px;
+	color: #616161;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+	vertical-align: middle;
+	outline: 0;
+}
+
+.table-bordered,
+.table-bordered>tbody>tr>td,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>td,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th {
+	border-color: #EAEAEA;
+}
+
+.table-hover > tbody > tr:hover {
+	background-color: #f5f5f5;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+	background-color: #f3f3f3;
+}
+
+table.dataTable {
+	margin-bottom: 20px !important;
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after {
+  bottom: 15px;
+}
+
+div.dataTables_wrapper div.dataTables_filter label {
+	text-align: right;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+	height: 36px;
+	line-height: 36px;
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+	width: auto;
+	padding: 0 0 0 5px;
+	height: 36px;
+	margin: 0 5px;
+}
+
+.dataTables_wrapper.container-fluid {
+	padding: 0;
+}
+
+.table .custom-checkbox {
+	margin-left: 8px;
+	float: left;
+}
+
+.table thead .custom-checkbox {
+	margin-left: 11px;
+}

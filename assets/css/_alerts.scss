@@ -1,0 +1,22 @@
+.alert {
+	font-size: 14px;
+	padding: 15px;
+	margin-bottom: 20px;
+
+	b, strong {
+		color: inherit;
+	}
+}
+
+.alert-success {
+	@include alert($alert-success-color, $alert-success-bg, $alert-success-border);
+}
+.alert-info {
+	@include alert($alert-info-color, $alert-info-bg, $alert-info-border);
+}
+.alert-warning {
+	@include alert($alert-warning-color, $alert-warning-bg, $alert-warning-border);
+}
+.alert-danger {
+	@include alert($alert-danger-color, $alert-danger-bg, $alert-danger-border);
+}
