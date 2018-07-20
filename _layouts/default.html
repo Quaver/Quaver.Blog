@@ -17,19 +17,36 @@
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <center><a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a></center>
-
-          <center><div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
+    <header id="header">
+    <div class="container">
+      <div class="navbar-backdrop">
+        <div class="navbar">
+          <div class="navbar-left">
+            <a class="navbar-toggle"><i class="fa fa-bars"></i></a>
+            <a href="/" class="logo"><img src="{{ site.avatar }}" alt="Quaver Logo"></a>
+            <nav class="nav">
+              <ul>
+                <!-- Home -->
+                <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="https://blog.quavergame.com" target="_blank"><i class="fa fa-rss"></i> Dev Blog</a></li>
+                <li><a href="https://twitter.com/QuaverGame" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                <li><a href="https://discord.gg/nJa8VFr" target="_blank"><i class="fab fa-discord"></i> Discord</a></li>
+                <li><a href="https://github.com/Swan" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+              </ul>
+            </nav>
           </div>
-          </center>
-        </header>
+        </div>
+      </div>
+      <div class="navbar-search">
+        <div class="container">
+          <form method="post">
+            <input type="text" class="form-control" placeholder="Search...">
+            <i class="fa fa-times close"></i>
+          </form>
+        </div>
       </div>
     </div>
+  </header>
 
     <div id="main" role="main" class="container">
       {{ content }}
