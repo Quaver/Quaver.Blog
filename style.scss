@@ -7,11 +7,6 @@
 
 @import "reset";
 @import "variables";
-// Core variables and mixins
-
-// Utility classes
-@import "utilities";
-@import "responsive";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -291,45 +286,6 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
-
-@import "custom";
-@import "mixins";
-
-// Core CSS
-@import "type";
-@import "header";
-@import "footer";
-@import "layouts";
-@import "section";
-
-// Components
-@import "hero";
-@import "buttons";
-@import "dropdown";
-@import "forms";
-@import "alerts";
-@import "notification";
-@import "progress";
-@import "pagination";
-@import "modals";
-@import "lightbox";
-@import "badge";
-@import "carousel";
-@import "cards";
-@import "accordion";
-@import "tabs";
-@import "popover";
-@import "tooltip";
-@import "heading";
-@import "tables";
-@import "forums";
-@import "comments";
-@import "posts";
-@import "gallery";
-@import "widgets";
-@import "plugins";
-@import "animation";
-@import "demo";
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
