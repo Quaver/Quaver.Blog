@@ -1,0 +1,36 @@
+.search-open.search-active {
+	padding-top: 98px;
+}
+
+.fixed-header {
+	padding-top: $header-height;
+	transition: 0.25s;
+}
+
+.fixed-header #header {
+	position: fixed;
+	z-index: 1040;
+	top: 0;
+}
+
+.header-scroll #header {
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.5);
+}
+
+.search-open header {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.sidebar {
+	border-left: 1px solid #ececec;
+	padding-left: 29px;
+	height: 100%;
+}
+
+.sidebar-left {
+	border-left: 0;
+	border-right: 1px solid #ececec;
+	padding-left: 0;
+	padding-right: 29px;
+}

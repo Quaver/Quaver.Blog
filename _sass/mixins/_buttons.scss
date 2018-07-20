@@ -1,0 +1,94 @@
+@mixin button($color, $background, $border) {
+  color: $color;
+  background-color: $background;
+  border-color: $border;
+
+	&:focus,
+	&:hover,
+	.show > &.dropdown-toggle,
+	.show > &.dropdown-toggle:hover,
+	.show > &.dropdown-toggle:focus {
+    color: $color;
+    background-color: lighten($background, 3%);
+    border-color: lighten($background, 3%);
+    outline: 0;
+  }
+
+  &:active:focus {
+    box-shadow: none;
+    outline: 0;
+  }
+
+  &.active,
+  &:active {
+    color: $color;
+    background-color: $background;
+    border-color: $border;
+
+    &:hover,
+    &:focus,
+    &.focus {
+      color: $color;
+      background-color: $background;
+      border-color: $border;
+    }
+  }
+
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    &:hover,
+    &:focus,
+    &.focus {
+      background-color: $background;
+      border-color: $border;
+    }
+  }
+}
+
+@mixin button-outline($color, $border) {
+  color: $color;
+  background-color: transparent;
+  border-color: $border;
+
+  &.active,
+	&:active:focus,
+	&:focus,
+	&:hover,
+	.open > &.dropdown-toggle,
+	.open > &.dropdown-toggle:hover,
+	.open > &.dropdown-toggle:focus {
+    color: #fff;
+    background-color: $color;
+    border-color: $color;
+  }
+}
+
+@mixin button-social($background) {
+  color: #fff;
+  background-color: $background;
+  font-weight: 500;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: #fff;
+    background: lighten($background, 5%);
+  }
+
+  &.btn-link {
+    &:focus,
+    &:hover {
+      color: $background;
+      box-shadow: none;
+    }
+  }
+
+  &.btn-default {
+    &:focus,
+    &:hover {
+      background-color: $background;
+      border-color: $background;
+    }
+  }
+}

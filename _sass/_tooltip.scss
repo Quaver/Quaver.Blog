@@ -1,0 +1,35 @@
+// tooltips
+.tooltip {
+	font-family: $font-family-base;
+
+	&.show  {
+    opacity: 1;
+	}
+}
+
+.tooltip-inner {
+	border-radius: 3px;
+	padding: 5px 10px;
+	background-color: $tooltip-color;
+  font-size: 13px;
+}
+
+.tooltip.bs-tooltip-top .arrow:before,
+.tooltip.bs-tooltip-top-left .arrow:before,
+.tooltip.bs-tooltip-top-right .arrow:before {
+	border-top-color: $tooltip-color;
+}
+
+.tooltip.bs-tooltip-right .arrow:before {
+	border-right-color: $tooltip-color;
+}
+
+.tooltip.bs-tooltip-left .arrow:before {
+	border-left-color: $tooltip-color;
+}
+
+.tooltip.bs-tooltip-bottom .arrow:before,
+.tooltip.bs-tooltip-bottom-left .arrow:before,
+.tooltip.bs-tooltip-bottom-right .arrow:before {
+	border-bottom-color: $tooltip-color;
+}

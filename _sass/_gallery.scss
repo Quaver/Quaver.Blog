@@ -1,0 +1,48 @@
+.masonry-3 {
+  column-gap: 10px;
+  column-count: 3;
+}
+
+figure {
+  margin-bottom: 0px;
+}
+
+.figure-effect {
+  figure {
+
+    .figure-img {
+      overflow: hidden;
+      transform: translateX(0);
+      margin-bottom: 7px;
+
+      a {
+        display: block;
+      }
+    }
+
+    img {
+      transform: scale(1);
+      transition: .2s ease-in-out;
+    }
+
+    &:hover img {
+      transform: scale(1.08);
+    }
+  }
+}
+
+.figure-img {
+  .figure-likes {
+    position: absolute;
+    bottom: 18px;
+    right: 18px;
+    color: #fff;
+    font-size: 15px;
+
+    &:before {
+      content: "\f08a";
+      font-family: "FontAwesome";
+      margin-right: 6px;
+    }
+  }
+}

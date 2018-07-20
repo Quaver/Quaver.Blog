@@ -1,0 +1,64 @@
+.badge {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 400;
+  padding: 8px 12px;
+  border-radius: 30px;
+  color: #fff;
+}
+
+.badge-playstation-4,
+.badge-ps4,
+.badge-primary {
+  background-color: $badge-primary-bg;
+  transition: .2s ease-in-out;
+
+  &[href]:active,
+  &[href]:focus,
+  &[href]:hover {
+    background-color: lighten($badge-primary-bg, 3%);
+  }
+}
+
+.badge-xbox-one,
+.badge-xbox,
+.badge-success {
+  background-color: $badge-success-bg;
+}
+
+.badge-pc,
+.badge-warning {
+  color: #fff;
+  background-color: $badge-warning-bg;
+}
+
+.badge-uplay,
+.badge-info {
+  background-color: $badge-info-bg;
+}
+
+.badge-steam,
+.badge-danger {
+  background-color: $badge-danger-bg;
+}
+
+// Social Badges
+.badge-twitch {  background-color: $color-twitch; }
+.badge-facebook { background-color: $color-facebook; }
+.badge-twitter { background-color: $color-twitter; }
+.badge-skype { background-color: $color-skype; }
+.badge-vk { background-color: $color-vk; }
+.badge-vimeo { background-color: $color-vimeo; }
+.badge-youtube { background-color: $color-youtube; }
+.badge-google-plus { background-color: $color-google-plus; }
+.badge-reddit { background-color: $color-reddit; }
+.badge-pinterest { background-color: $color-pinterest; }
+.badge-instagram { background-color: $color-instagram; }
+
+// Outline Badges
+.badge-outline-primary { @include badge-outline($theme-primary); }
+.badge-outline-success { @include badge-outline($theme-success); }
+.badge-outline-danger { @include badge-outline($theme-danger); }
+.badge-outline-warning { @include badge-outline($theme-warning); }
+.badge-outline-info { @include badge-outline($theme-info); }
+.badge-outline-dark { @include badge-outline($theme-inverse); }

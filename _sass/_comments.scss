@@ -1,0 +1,180 @@
+.comments {
+  .comments-header {
+    @include clearfix;
+
+    h5 {
+      float: left;
+      padding-top: 8px;
+      margin-bottom: 0;
+    }
+  }
+
+  > ul {
+    margin-top: 30px;
+    margin-bottom: 25px;
+
+    > li:last-child .comment {
+        border-bottom: 0;
+    }
+
+    li {
+      .comment {
+        width: 100%;
+        display: table;
+        border-bottom: 1px solid #eaeaea;
+        padding: 20px 0;
+
+        &:hover {
+          .comment-action .dropdown {
+            display: inline-block !important;
+          }
+        }
+
+        > div {
+          display: table-cell;
+          vertical-align: top;
+
+          &.comment-avatar {
+            width: 60px;
+            position: relative;
+
+            .badge {
+              position: absolute;
+              top: 38px;
+              right: 0px;
+              padding: 0;
+              border-radius: 50%;
+              width: 26px;
+              height: 26px;
+              line-height: 23px;
+            }
+
+            img {
+              border-radius: 50%;
+            }
+          }
+
+          &.comment-post {
+            padding-left: 22px;
+            font-size: 15px;
+
+            .comment-header {
+              margin-bottom: 10px;
+              display: block;
+              @include clearfix;
+            }
+
+            .comment-author {
+              float: left;
+
+              h5 {
+                display: inline-block;
+                font-size: 16px;
+                margin-bottom: 0px;
+
+                > span {
+                  padding: 3px 5px;
+                  margin-left: 5px;
+                  vertical-align: top;
+                }
+              }
+
+              > span {
+                font-size: 14px;
+                display: inline-block;
+                margin-right: 10px;
+                padding-right: 10px;
+
+                &:before {
+                  color: #9c9c9c;
+                  content: "\002022";
+                  margin: 0 5px 0 0;
+                  display: inline-block;
+                }
+              }
+            }
+
+            .comment-action {
+              float: right;
+              padding-right: 10px;
+
+              .dropdown {
+                display: none;
+
+                .dropdown-menu-right {
+                  margin-right: -7px;
+                }
+
+                > a {
+                  color: #848484;
+
+                  &:hover {
+                    color: darken(#848484, 15%);
+                  }
+                }
+
+                &.show {
+                  display: inline-block;
+                }
+              }
+            }
+
+            .comment-footer {
+              display: block;
+
+              ul {
+                padding: 0;
+
+                li {
+                  display: inline-block;
+                  font-size: 14px;
+
+                  i {
+                    margin-right: 3px;
+                  }
+
+                  &:after {
+                    font-size: 12px;
+                    color: #cccccc;
+                    content: "\002022";
+                    margin: 0 5px;
+                    display: inline-block;
+                  }
+
+                  &:last-child:after {
+                    display: none;
+                  }
+                }
+              }
+            }
+
+            > span {
+              font-size: 14px;
+
+              i {
+                margin-right: 3px;
+              }
+            }
+          }
+        }
+      }
+
+      &:first-child {
+        .comment {
+          padding-top: 0;
+        }
+      }
+
+      > ul {
+        padding-left: 80px;
+        padding-top: 20px;
+      }
+    }
+  }
+}
+
+.fb-comments iframe,
+.fb-comments span,
+.fb-comments {
+  width: 100% !important;
+}
