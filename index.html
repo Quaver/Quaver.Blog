@@ -13,16 +13,16 @@ layout: default
 <section>
 <div class="container">
 <div class="row">
-<div class="col-sm-12 col-md-10 col-lg-8 mx-auto">
+<div class="col-sm-12 col-md-12 col-lg-8 mx-auto">
 {% for post in site.posts %}
 <div class="post">
-  <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-  <div class="post-meta">
-    <span><i class="fa fa-clock-o"></i> {{ post.date | date: "%B %e, %Y" }} by <a href="">{{ post.author }}</a></span>
-    <!--<span><a href="#"><i class="fa fa-comment-o"></i> 98 comments</a></span>-->
-  </div>
-  <p>{{ post.excerpt }}</p>
-  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+<h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+<div class="post-meta">
+<span><i class="fa fa-clock-o"></i> {{ post.date | date: "%B %e, %Y" }} by <a href="">{{ post.author }}</a></span>
+<!--<span><a href="#"><i class="fa fa-comment-o"></i> 98 comments</a></span>-->
+</div>
+<p>{{ post.excerpt }}</p>
+<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
 </div>
 {% endfor %}
 <div class="text-center">
@@ -40,7 +40,6 @@ layout: default
 </ul>
 </nav>
 </div>
-
 </div>
 </div>
 </div>
