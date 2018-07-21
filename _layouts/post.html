@@ -18,6 +18,11 @@ layout: default
 
   <h2 class="post-title">{{ page.title }}</h2>
   <div class="post-meta">
+  {% if include.caption %}
+  <div class="post-thumbnail">
+	<img src="/assets/posts/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
+  </div>
+  {% endif %}
   <span><i class="fa fa-clock"></i> {{ page.date | date: "%B %e, %Y" }} by <a href="#">{{ page.author }}</a></span>
   <!--<span><a href="#comments"><i class="fa fa-comment-o"></i> 9 comments</a></span>-->
 </div>
