@@ -1,0 +1,111 @@
+.btn-demo .btn {
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.blank {
+	min-height: 600px;
+}
+
+.demo-popover {
+  position: relative;
+  padding-top: 10px;
+
+  .popover {
+    position: relative;
+    width: 100%;
+    z-index: 3;
+    margin-top: 0;
+    display: inline-block;
+  }
+
+	.popover-body {
+		color: #6b6b6b;
+	}
+
+	.bs-popover-left .arrow,
+	.bs-popover-right .arrow {
+		top: 50%;
+	}
+
+	.bs-popover-top .arrow,
+	.bs-popover-bottom .arrow {
+		left: 50%;
+	}
+}
+
+.demo-tooltip {
+  position: relative;
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    position: relative;
+    opacity: 1;
+  }
+
+	.bs-tooltip-left .arrow,
+	.bs-tooltip-right .arrow {
+		top: 45%;
+	}
+
+	.bs-tooltip-top .arrow,
+	.bs-tooltip-bottom .arrow {
+		left: 50%;
+	}
+}
+
+.icons {
+  color: #4c4c4c;
+  margin: 0 -10px;
+  padding-top: 15px;
+
+  i {
+    font-size: 20px;
+    width: 46.95px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  h5 {
+    margin-left: 13px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+.demo-dropdown {
+  .dropdown-menu {
+    position: static;
+    display: block;
+    float: left;
+    margin-right: 30px;
+  }
+}
+
+.demo-modal {
+	padding: 15px 0 70px 0;
+
+	.modal {
+		overflow: inherit;
+		position: relative;
+		top: auto;
+		right: auto;
+		bottom: auto;
+		left: auto;
+		z-index: 1;
+		display: block;
+		opacity: 1;
+	}
+
+	.modal-dialog {
+		margin: 0;
+		min-width: 500px;
+		transform: none !important;
+	}
+}

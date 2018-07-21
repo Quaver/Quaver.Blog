@@ -1,0 +1,172 @@
+.hero {
+  padding: 0;
+  min-height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+    z-index: 2;
+    background-color: #2d2d2d;
+  }
+
+  .overlay-light {
+    background: #252525;
+    opacity: .75;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+
+  .overlay-primary {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .85;
+    z-index: 2;
+    background-color: $theme-primary;
+  }
+
+  .btn {
+    .fa-play {
+      font-size: 12px;
+    }
+  }
+
+  .hero-block {
+    z-index: 3;
+    position: relative;
+    text-align: center;
+
+    p {
+      color: #d3d3d3;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+  }
+
+  .hero-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+
+  .btn {
+    margin-top: 10px;
+  }
+}
+
+.hero-blog {
+  margin-bottom: 40px;
+}
+
+.hero-block {
+  .hero-left {
+    float: left;
+  }
+
+  .hero-right {
+    float: right;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.hero-review {
+  min-height: 430px;
+}
+
+.hero-game {
+  justify-content: flex-start;
+
+  .hero-block {
+    text-align: left;
+
+    p {
+      margin-top: 10px;
+      font-weight: 300;
+    }
+  }
+
+  .hero-review {
+    margin-left: 25px;
+    text-align: center;
+    min-height: inherit;
+
+    .easypiechart:hover {
+      color: #fff;
+    }
+
+    a:not(.easypiechart) {
+      background-color: rgba(255,255,255, .05);
+      border: 1px dashed rgba(255,255,255, .4);
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      border-radius:  50%;
+      display: inline-block;
+      color: #fff;
+      text-align: center;
+      transition: .2s ease-in-out;
+
+      &:hover {
+        background-color: rgba(255,255,255, .1);
+      }
+    }
+
+    > span {
+      display: block;
+      margin-bottom: 10px;
+      color: #fff;
+      font-size: 15px;
+      font-weight: 500;
+    }
+  }
+}
+
+.hero-profile {
+  align-items: flex-end;
+  justify-content: flex-start;
+
+  .hero-block {
+    text-align: left;
+    padding-left: 240px;
+    padding-bottom: 10px;
+    @include clearfix;
+
+    h5 {
+      color: #fff;
+      font-size: 18px;
+      float: left;
+    }
+
+    .btn-add {
+      float: left;
+      margin-top: -5px;
+      margin-left: 15px;
+      padding: 6px 10px;
+    }
+  }
+}

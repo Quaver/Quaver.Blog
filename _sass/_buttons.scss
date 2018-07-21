@@ -1,0 +1,321 @@
+.btn {
+	border-color: transparent;
+	border-radius: 4px;
+	padding: 10px 15px;
+	transition: 0.25s;
+	line-height: 1.25;
+	font-size: 14px;
+	cursor: pointer;
+
+	i {
+		margin-left: 5px;
+	}
+
+	&:focus {
+		box-shadow: none;
+	}
+
+	&.active,
+	&:active:focus {
+		box-shadow: inset 0 1px 1px 0 rgba(0,0,0, 0.1);
+	}
+}
+
+.btn-effect {
+  position: relative;
+
+	&:hover {
+	  padding-right: 35px;
+	}
+
+	&:hover.btn-rounded {
+	  padding-right: 45px;
+	}
+
+	&:after {
+	  position: absolute;
+	  margin-left: -10px;
+		margin-top: 3px;
+	  opacity: 0;
+	  font-size: 11px;
+	  content: "\f054";
+	  font-family: "FontAwesome";
+	  transition: 0.2s ease-in-out;
+	}
+
+	&:hover:after {
+	  opacity: 1;
+	  margin-left: 10px;
+	}
+}
+
+.btn-rounded {
+	border-radius: 30px;
+	padding: 14px 20px;
+}
+
+.btn-lg {
+	font-size: 15px;
+  padding: 16px 27px;
+}
+
+.btn-sm {
+	font-size: 13px;
+	padding: 7px 10px;
+}
+
+.btn-xs {
+	padding: 5px 8px;
+}
+
+.btn-shadow {
+	box-shadow: 0 1px 3px 0px rgba(0,0,0, 0.2);
+}
+
+.btn-circle {
+  border-radius: 50%;
+  padding: 0;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+
+  i {
+    margin: 0;
+  }
+}
+
+.btn-icon-circle {
+	border-radius: 50%;
+	padding: 0;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+
+	i {
+		margin: 0;
+	}
+
+	&.btn-xs {
+		width: 32px;
+		height: 32px;
+		line-height: 32px;
+	}
+
+	&.btn-sm {
+		width: 36px;
+		height: 36px;
+		line-height: 36px;
+	}
+
+	&.btn-lg {
+		width: 46px;
+		height: 46px;
+		line-height: 46px;
+		font-size: 18px;
+	}
+}
+
+.btn-icon {
+	padding: 10px 12px;
+
+	i {
+  	margin: 0;
+	}
+}
+
+.btn-icon-left {
+	text-align: left;
+
+	i {
+  	margin-right: 5px;
+  	margin-left: 0;
+	}
+}
+
+.btn.btn-link {
+	color: rgba(0,0,0, 0.6);
+
+  &:hover {
+  	color: #2776dc;
+  	text-decoration: none;
+  }
+}
+
+.input-group .btn {
+	line-height: 1.3;
+}
+
+.btn-social {
+  i {
+    width: 15px;
+  }
+
+  &.btn-icon {
+    text-align: center;
+    width: 40px;
+		height: 40px;
+		line-height: 40px;
+		padding: 0;
+
+    i {
+      font-size: 15px;
+      width: auto;
+    }
+  }
+
+  &.btn-link {
+    background-color: transparent;
+    padding: 0 5px;
+    margin: 0;
+    width: auto;
+		border: 0;
+
+    i {
+      width: auto;
+      font-size: 18px;
+      margin: 0;
+    }
+
+		&:focus,
+		&:hover {
+			background-color: transparent;
+		}
+  }
+
+  &.btn-block {
+    text-align: left;
+
+    i {
+      margin-left: 0;
+      margin-right: 5px;
+    }
+  }
+
+  &.btn-default {
+    background-color: #222;
+    border-color: #222;
+
+		&:active:focus,
+		&:active,
+	  &:focus,
+	  &:hover {
+	   	color: #fff;
+	 	}
+  }
+
+  &.btn-effect {
+    position: relative;
+    overflow: hidden;
+
+    i {
+			line-height: inherit;
+      transition: .2s ease-in-out;
+			display: block;
+    }
+
+    &:hover {
+			padding: 0;
+
+      i {
+        &:first-child {
+					margin-top: -40px;
+        }
+      }
+    }
+
+    &:after {
+      display: none;
+    }
+  }
+}
+
+// Buttons
+.btn-primary { @include button($btn-primary-color, $btn-primary-bg, $btn-primary-border); }
+.btn-info { @include button($btn-info-color, $btn-info-bg, $btn-info-border); }
+.btn-danger { @include button($btn-danger-color, $btn-danger-bg, $btn-danger-border); }
+.btn-warning { @include button($btn-warning-color, $btn-warning-bg, $btn-warning-border); }
+.btn-success { @include button($btn-success-color, $btn-success-bg, $btn-success-border); }
+.btn-dark { @include button($btn-dark-color, $btn-dark-bg, $btn-dark-border); }
+
+.btn-secondary {
+	@include button($btn-secondary-color, $btn-secondary-bg, $btn-secondary-border);
+
+	&.active,
+	&:active:focus,
+	&:focus,
+	&:hover,
+	.show > &.dropdown-toggle,
+	.show > &.dropdown-toggle:hover,
+	.show > &.dropdown-toggle:focus {
+		color: $btn-secondary-color;
+		border-color: darken($btn-secondary-border, 5%);
+		background-color: #fafafa;
+	}
+}
+
+.btn-light,
+.btn-default {
+	@include button($btn-default-color, $btn-default-bg, $btn-default-border);
+
+	&.active,
+	&:active:focus,
+	&:focus,
+	&:hover,
+	.show > &.dropdown-toggle,
+	.show > &.dropdown-toggle:hover,
+	.show > &.dropdown-toggle:focus {
+		color: $btn-default-color;
+		border-color: darken($btn-default-border, 4%);
+		background-color: #fafafa;
+		box-shadow: none !important;
+	}
+}
+
+// Outline Buttons
+.btn-outline-primary { @include button-outline($btn-outline-primary-bg, $btn-outline-primary-border); }
+.btn-outline-info { @include button-outline($btn-outline-info-bg, $btn-outline-info-border); }
+.btn-outline-danger { @include button-outline($btn-outline-danger-bg, $btn-outline-danger-border); }
+.btn-outline-warning { @include button-outline($btn-outline-warning-bg, $btn-outline-warning-border); }
+.btn-outline-success { @include button-outline($btn-outline-success-bg, $btn-outline-success-border); }
+.btn-outline-dark { @include button-outline($btn-outline-dark-bg, $btn-outline-dark-border); }
+.btn-outline-default {
+	color: $btn-outline-default-color;
+  background-color: transparent;
+  border-color:  $btn-outline-default-border;
+
+	&:hover,
+	&:focus {
+		color: $btn-outline-default-color;
+		background-color: rgba(255,255,255, .05);
+		border-color: $btn-outline-default-border;
+	}
+}
+
+// Social Buttons
+.btn-facebook { @include button-social($color-facebook); }
+.btn-twitter { @include button-social($color-twitter); }
+.btn-google-plus { @include button-social($color-google-plus); }
+.btn-twitch { @include button-social($color-twitch); }
+.btn-steam { @include button-social($color-steam); }
+.btn-linkedin { @include button-social($color-linkedin); }
+.btn-skype { @include button-social($color-skype); }
+.btn-vk { @include button-social($color-vk); }
+.btn-vimeo { @include button-social($color-vimeo); }
+.btn-youtube { @include button-social($color-youtube); }
+.btn-reddit { @include button-social($color-reddit); }
+.btn-pinterest { @include button-social($color-pinterest); }
+.btn-instagram { @include button-social($color-instagram); }
+.btn-dribbble { @include button-social($color-dribbble); }
+.btn-paypal { @include button-social($color-paypal); }
+.btn-rss { @include button-social($color-rss); }
+.btn-wordpress { @include button-social($color-wordpress); }
+.btn-drupal { @include button-social($color-drupal); }
+.btn-joomla { @include button-social($color-joomla); }
+.btn-tumblr { @include button-social($color-tumblr); }
+.btn-github { @include button-social($color-github); }
+.btn-soundcloud { @include button-social($color-soundcloud); }
+.btn-spotify { @include button-social($color-spotify); }
+.btn-slack { @include button-social($color-slack); }
+.btn-windows { @include button-social($color-windows); }
+.btn-linux { @include button-social($color-linux); }

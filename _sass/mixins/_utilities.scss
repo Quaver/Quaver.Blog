@@ -1,0 +1,16 @@
+@mixin bg($bg) {
+  color: #fff;
+  background-color: $bg !important;
+}
+
+@mixin card($color) {
+  border-color: $color;
+
+  .card-header {
+    background-color: $color;
+
+    .card-title {
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animated.fast {
+  animation-duration: .5s !important;
+}
+
+.animate1 {
+  animation-delay: .2s;
+}
+.animate2 {
+  animation-delay: .4s;
+}
+.animate3 {
+  animation-delay: .6s;
+}
+.animate4 {
+  animation-delay: .8s;
+}
+.animate5 {
+  animation-delay: 1s;
+}
+.animate6 {
+  animation-delay: 1.2s;
+}
+.animate7 {
+  animation-delay: 1.4s;
+}
+.animate8 {
+  animation-delay: 1.6s;
+}
+.animate9 {
+  animation-delay: 1.8s;
+}
+.animate10 {
+  animation-delay: 2s;
+}

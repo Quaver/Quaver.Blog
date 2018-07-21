@@ -1,0 +1,50 @@
+@mixin checkbox($color) {
+  .custom-control-input {
+    &:checked ~ .custom-control-indicator {
+      border-color: $color;
+      background-color: $color;
+    }
+
+    &:indeterminate ~ .custom-control-indicator {
+      background-color: $color;
+    }
+  }
+
+  .custom-control-input:active ~ .custom-control-indicator,
+  .custom-control-input:checked ~ .custom-control-indicator {
+    background-color: $color;
+    border-color: $color;
+  }
+}
+
+@mixin checkbox-toggle($color) {
+  input[type=checkbox]:checked + label:before {
+    color: $color;
+  }
+}
+
+@mixin radio($color) {
+  .custom-control-input {
+    &:active ~ .custom-control-indicator,
+    &:checked ~ .custom-control-indicator {
+      border-color: $color;
+      background-color: $color;
+    }
+  }
+}
+
+@mixin validation($color) {
+  .form-control {
+    color: darken($color, 20%);
+    border-color: $color;
+
+    &:focus {
+      border-color: darken($color, 15%);
+    }
+  }
+
+  small,
+  .control-label {
+    color: darken($color, 20%);
+  }
+}

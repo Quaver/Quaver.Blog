@@ -1,0 +1,15 @@
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+// UI Components
+@import "mixins/forms";
+@import "mixins/buttons";
+@import "mixins/alerts";
+@import "mixins/badges";
+@import "mixins/utilities";
+@import "mixins/breakpoints";

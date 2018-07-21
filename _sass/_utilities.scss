@@ -1,0 +1,159 @@
+.anchor {
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.float-left {
+  float: left !important;
+}
+
+.float-none {
+  float: none !important;
+}
+
+.relative {
+  position: relative;
+}
+
+.row-5 {
+  margin: 0 -5px;
+
+  > div {
+    padding: 0 5px;
+  }
+}
+
+.row-3 {
+  margin: 0 -3px;
+
+  > div {
+    padding: 0 3px;
+  }
+}
+
+.full-width {
+  width: 100% !important;
+}
+
+.font-weight-300 {
+  font-weight: 300;
+}
+
+.bg-primary {
+  @include bg($bg-primary);
+}
+.bg-danger {
+  @include bg($bg-danger);
+}
+.bg-warning {
+  @include bg($bg-warning);
+}
+.bg-info {
+  @include bg($bg-info);
+}
+.bg-success {
+  @include bg($bg-success);
+}
+.bg-inverse {
+  @include bg($bg-inverse);
+}
+.bg-secondary {
+  background-color: #fff !important;
+}
+
+.mx-auto {
+  margin: 0 auto;
+  float: none;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-muted { color: $text-muted !important; }
+.text-primary { color: $text-primary !important; }
+.text-secondary { color: $theme-secondary !important; }
+.text-success { color: $text-success !important; }
+.text-warning { color: $text-warning !important; }
+.text-danger { color: $text-danger !important; }
+.text-info { color: $text-info !important; }
+.text-white { color: #fff !important; }
+.text-dark { color: rgba(0,0,0, 0.5) !important; }
+
+/* Reset */
+.display-none {
+  display: none !important;
+}
+.display-block {
+  display: block !important;
+}
+.display-inline {
+  display: inline !important;
+}
+.display-inline-block {
+  display: inline-block !important;
+}
+.no-border {
+	border: 0 !important;
+}
+.no-border-top {
+	border-top: 0 !important;
+}
+.no-border-bottom {
+	border-bottom: 0 !important;
+}
+.no-border-left {
+	border-left: 0 !important;
+}
+.no-border-right {
+	border-right: 0 !important;
+}
+.no-shadow {
+	box-shadow: none !important;
+}
+.no-radius {
+	border-radius: 0 !important;
+}
+.nowrap {
+	white-space: nowrap !important;
+}
+
+@while $space > -5 {
+  @each $prop, $abbrev in (margin: m, padding: p) {
+    .#{$abbrev}-a-#{$space} { #{$prop}: #{$space}px !important; }
+    .#{$abbrev}-t-#{$space} { #{$prop}-top: #{$space}px !important; }
+    .#{$abbrev}-r-#{$space} { #{$prop}-right: #{$space}px !important; }
+    .#{$abbrev}-b-#{$space} { #{$prop}-bottom: #{$space}px !important; }
+    .#{$abbrev}-l-#{$space} { #{$prop}-left: #{$space}px !important; }
+    .#{$abbrev}-x-#{$space} {
+      #{$prop}-right:  #{$space}px !important;
+      #{$prop}-left:   #{$space}px !important;
+    }
+    .#{$abbrev}-y-#{$space} {
+      #{$prop}-top:    #{$space}px !important;
+      #{$prop}-bottom: #{$space}px !important;
+    }
+  }
+  $space: $space - 5;
+}
+
+@each $bp in map-keys($grid-breakpoints) {
+  .hidden-#{$bp}-up {
+    @include media-breakpoint-up($bp) {
+      display: none !important;
+    }
+  }
+  .hidden-#{$bp}-down {
+    @include media-breakpoint-down($bp) {
+      display: none !important;
+    }
+  }
+}
