@@ -85,6 +85,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-  
-paginate: 1
-paginate_path: "/blog/page:num/"
+
+plugins:
+  paginate: 1
+  paginate_path: "/blog/page:num/"
