@@ -16,32 +16,34 @@ layout: default
 <div class="col-sm-12 col-md-12 col-lg-8 mx-auto">
 {% for post in paginator.posts %}
 <div class="post">
-<h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+<h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | escape }}</a></h2>
 <div class="post-meta">
-<span><i class="fa fa-clock"></i> {{ post.date | date: "%B %e, %Y" }} by <a href="">{{ post.author }}</a></span>
+<span><i class="fa fa-clock"></i> {{ post.date | date: "%e, %B, %Y" }} by <a href="">{{ post.author }}</a></span>
 <!--<span><a href="#"><i class="fa fa-comment-o"></i> 98 comments</a></span>-->
 </div>
 <p>{{ post.excerpt }}</p>
 <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
 </div>
 {% endfor %}
+{% if paginator.total_pages > 1 %}
 <div class="text-center">
 <nav aria-label="Page navigation">
 <ul class="pagination">
 {% if paginator.previous_page %}
-<li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path }}" aria-label="Previous"><span aria-hidden="true"><i class="fa fa-angle-left"></i></span></a></li>
+<li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous"><span aria-hidden="true"><i class="fa fa-angle-left"></i></span></a></li>
 {% else %}
 <li class="page-item disabled"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true"><i class="fa fa-angle-left"></i></span></a></li>
 {% endif %}
 <li class="page-item disabled"><a class="page-link" href="#">Page {{ paginator.page }} of {{ paginator.total_pages }}</a></li>
 {% if paginator.next_page %}
-<li class="page-item"><a class="page-link" href="{{ paginator.next_page_path }}" aria-label="Next"><span aria-hidden="true"><i class="fa fa-angle-right"></i></span></a></li>
+<li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next"><span aria-hidden="true"><i class="fa fa-angle-right"></i></span></a></li>
 {% else %}
 <li class="page-item disabled"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true"><i class="fa fa-angle-right"></i></span></a></li>
 {% endif %}
 </ul>
 </nav>
 </div>
+{% endif %}
 </div>
 </div>
 </div>
