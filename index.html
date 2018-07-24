@@ -14,7 +14,7 @@ layout: default
 <div class="container">
 <div class="row">
 <div class="col-sm-12 col-md-12 col-lg-8 mx-auto">
-{% for post in site.posts %}
+{% for post in paginator.posts %}
 <div class="post">
 <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 <div class="post-meta">
