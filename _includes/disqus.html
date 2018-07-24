@@ -3,13 +3,13 @@
 	<div id="disqus_thread"></div>
 	<script>
 		var disqus_config = function () {
-			this.page.url = "https://aiae.quavergame.com{{ page.url }}";
+			this.page.url = "{{ site.baseurl }}{{ post.url }}";
 			this.page.identifier = "{{ page.id }}";
 		};
 		(function() {
 		var d = document, s = d.createElement('script');
 
-		s.src = '//SHORTNAME.disqus.com/embed.js';
+		s.src = 'https://quaver.disqus.com/embed.js';
 
 		s.setAttribute('data-timestamp', +new Date());
 		(d.head || d.body).appendChild(s);
