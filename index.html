@@ -19,9 +19,9 @@ layout: default
 <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | escape }}</a></h2>
 <div class="post-meta">
 <span><i class="fa fa-clock"></i> {{ post.date | date: "%e, %B, %Y" }} by <a href="">{{ post.author }}</a></span>
-<span><a href="{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{post.id}}"><i class="fa fa-comment-o"></i> 0 comments</a></span>
+<span><a href="{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{post.id}}"><i class="fa fa-comment"></i> 0 comments</a></span>
 </div>
-<p>{{ post.excerpt }}</p>
+<p>{{ post.description | strip_html | strip_newlines | truncate: 250 }}</p>
 <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
 </div>
 {% endfor %}
