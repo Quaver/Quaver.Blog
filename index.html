@@ -13,7 +13,7 @@ layout: default
 <section>
 <div class="container">
 <div class="row">
-<div class="col-sm-12 col-md-12 col-lg-8 mx-auto">
+<div class="col-lg-8">
 {% for post in paginator.posts %}
 <div class="post">
 <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | escape }}</a></h2>
@@ -26,7 +26,8 @@ layout: default
 </div>
 {% endfor %}
 {% if paginator.total_pages > 1 %}
-<div class="text-center">
+<div class="pagination-results m-t-30">
+<span>Showing {{ paginator.page }} of {{ paginator.total_pages }} results</span>
 <nav aria-label="Page navigation">
 <ul class="pagination">
 {% if paginator.previous_page %}
@@ -34,7 +35,6 @@ layout: default
 {% else %}
 <li class="page-item disabled"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true"><i class="fa fa-angle-left"></i></span></a></li>
 {% endif %}
-<li class="page-item disabled"><a class="page-link" href="#">Page {{ paginator.page }} of {{ paginator.total_pages }}</a></li>
 {% if paginator.next_page %}
 <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next"><span aria-hidden="true"><i class="fa fa-angle-right"></i></span></a></li>
 {% else %}
@@ -44,6 +44,22 @@ layout: default
 </nav>
 </div>
 {% endif %}
+</div>
+<div class="col-lg-4">
+<div class="sidebar">
+<div class="widget widget-search">
+<form>
+<div class="form-group input-icon-right">
+<i class="fa fa-search"></i>
+<input type="text" class="form-control" placeholder="Type to search...">
+</div>
+</form>
+</div>
+<div class="widget widget-post">
+<h5 class="widget-title">Follow us on Facebook</h5>
+card here
+</div>
+</div>
 </div>
 </div>
 </div>
