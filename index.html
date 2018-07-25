@@ -15,7 +15,11 @@ layout: default
 <div class="row">
 <div class="col-lg-8">
 {% for post in paginator.posts %}
-<div class="post">
+<div class="post post-md">
+<div class="post-thumbnail">
+<a href="blog-post-medium.html"><img src="/assets/posts/blog_preview.jpg" alt="{{ post.title | escape }}"></a>
+</div>
+<div class="post-block">
 <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | escape }}</a></h2>
 <div class="post-meta">
 <span><i class="fa fa-clock"></i> {{ post.date | date: "%e, %B, %Y" }} by <a href="">{{ post.author }}</a></span>
@@ -23,6 +27,7 @@ layout: default
 </div>
 <p>{{ post.content | strip_html | strip_newlines | truncate: 250 }}</p>
 <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+</div>
 </div>
 {% endfor %}
 {% if paginator.total_pages > 1 %}
