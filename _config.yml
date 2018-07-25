@@ -70,13 +70,18 @@ kramdown:
 
 # Set the Sass partials directory, as we're using @imports
 sass:
-  style: :expanded # You might prefer to minify using :compressed
+  sass_dir:           _sass
+  style:              compressed
 
 # Use the following plug-ins
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-paginate
 
+paginate: 2
+paginate_path: "/blog/page:num/"
+  
 # Exclude these files from your production _site
 exclude:
   - Gemfile
