@@ -21,7 +21,7 @@ layout: default
 <span><i class="fa fa-clock"></i> {{ post.date | date: "%e, %B, %Y" }} by <a href="">{{ post.author }}</a></span>
 <span><a href="{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{post.id}}"><i class="fa fa-comment"></i> 0 comments</a></span>
 </div>
-<p>{{ post.description }}</p>
+<p>{{ post.content | strip_html | strip_newlines | truncate: 250 }}</p>
 <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
 </div>
 {% endfor %}
