@@ -13,22 +13,20 @@ layout: default
 <section>
 <div class="container">
 <div class="row">
-<div class="col-lg-8 mx-auto">
+<div class="col-lg-8">
 <div class="post post-single">
-
-  <h2 class="post-title">{{ page.title }}</h2>
-  <div class="post-meta">
-  {% if include.caption %}
-  <div class="post-thumbnail">
-	<img src="/assets/posts/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
-  </div>
-  {% endif %}
-  <span><i class="fa fa-clock"></i> {{ page.date | date: "%B %e, %Y" }} by <a href="#">{{ page.author }}</a></span>
-  <!--<span><a href="#comments"><i class="fa fa-comment-o"></i> 9 comments</a></span>-->
+<h2 class="post-title">{{ page.title }}</h2>
+<div class="post-meta">
+<!--
+<div class="post-thumbnail">
+<img src="/assets/posts/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
 </div>
-  <p>
-    {{ content }}
-  </p>
+-->
+<span><i class="fa fa-clock"></i> {{ page.date | date: "%B %e, %Y" }} by <a href="#">{{ page.author }}</a></span>
+</div>
+<p>
+{{ content }}
+</p>
 <div class="post-actions">
 <div class="post-tags">
 <a href="#">#blog</a>
@@ -43,6 +41,7 @@ layout: default
   </div>
 </div>
 </div>
+{% include side-panel.html %}
 </div>
 </div>
 </section>
