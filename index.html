@@ -1,106 +1,104 @@
 ---
 layout: default
 ---
-
 <section class="breadcrumbs">
-<div class="container">
-<ol class="breadcrumb">
-<li><a href="/">Home</a></li>
-<li class="active">Blog</li>
-</ol>
-</div>
+    <div class="container">
+        <ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li class="active">Blog</li>
+        </ol>
+    </div>
 </section>
 <section>
-<div class="container">
-<div class="row">
-<div class="col-lg-8">
-{% for post in paginator.posts %}
-<div class="post post-md">
-<div class="post-thumbnail">
-<a href="blog-post-medium.html"><img src="/assets/images/blog_preview.jpg" alt="{{ post.title | escape }}" width="320px" height="180px"></a>
-</div>
-<div class="post-block">
-<h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | escape }}</a></h2>
-<div class="post-meta">
-<span><i class="fa fa-clock"></i> {{ post.date | date: "%e, %B, %Y" }} by <a href="">{{ post.author }}</a></span>
-<span><a href="{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{post.id}}"><i class="fa fa-comment"></i> 0 comments</a></span>
-</div>
-<p>{{ post.content | strip_html | strip_newlines | truncate: 250 }}</p>
-<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-</div>
-</div>
-{% endfor %}
-{% if paginator.total_pages > 1 %}
-<div class="pagination-results m-t-30">
-<span>Showing {{ paginator.page }} of {{ paginator.total_pages }} results</span>
-<nav aria-label="Page navigation">
-<ul class="pagination">
-{% if paginator.previous_page %}
-<li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous"><span aria-hidden="true"><i class="fa fa-angle-left"></i></span></a></li>
-{% else %}
-<li class="page-item disabled"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true"><i class="fa fa-angle-left"></i></span></a></li>
-{% endif %}
-{% if paginator.next_page %}
-<li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next"><span aria-hidden="true"><i class="fa fa-angle-right"></i></span></a></li>
-{% else %}
-<li class="page-item disabled"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true"><i class="fa fa-angle-right"></i></span></a></li>
-{% endif %}
-</ul>
-</nav>
-</div>
-{% endif %}
-</div>
-{% include side-panel.html %}
-</div>
-</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                {% for post in paginator.posts %}
+                <div class="post post-md">
+                    <div class="post-thumbnail">
+                        <a href="blog-post-medium.html"><img src="/assets/images/blog_preview.jpg" alt="{{ post.title | escape }}" width="320px" height="180px"></a>
+                    </div>
+                    <div class="post-block">
+                        <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | escape }}</a></h2>
+                        <div class="post-meta">
+                            <span><i class="fa fa-clock"></i> {{ post.date | date: "%e, %B, %Y" }} by <a href="">{{ post.author }}</a></span>
+                            <span><a href="{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{post.id}}"><i class="fa fa-comment"></i> 0 comments</a></span>
+                        </div>
+                        <p>{{ post.content | strip_html | strip_newlines | truncate: 250 }}</p>
+                        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+                    </div>
+                </div>
+                {% endfor %}
+                {% if paginator.total_pages > 1 %}
+                <div class="pagination-results m-t-30">
+                    <span>Showing {{ paginator.page }} of {{ paginator.total_pages }} results</span>
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination">
+                            {% if paginator.previous_page %}
+                            <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous"><span aria-hidden="true"><i class="fa fa-angle-left"></i></span></a></li>
+                            {% else %}
+                            <li class="page-item disabled"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true"><i class="fa fa-angle-left"></i></span></a></li>
+                            {% endif %}
+                            {% if paginator.next_page %}
+                            <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next"><span aria-hidden="true"><i class="fa fa-angle-right"></i></span></a></li>
+                            {% else %}
+                            <li class="page-item disabled"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true"><i class="fa fa-angle-right"></i></span></a></li>
+                            {% endif %}
+                        </ul>
+                    </nav>
+                </div>
+                {% endif %}
+            </div>
+            {% include side-panel.html %}
+        </div>
+    </div>
 </section>
 <footer id="footer">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-5">
-          <h4 class="footer-title">About Quaver</h4>
-          <p>Quaver is the ultimate community-driven and open-source competitive rhythm game. We're aiming to take the concept of VSRGs to a new level by bringing 
-             competition and e-sports into the mix.
-          </p>
-          <p>
-              Although the game may seem difficult at first glance, you don't have to be a pro to play Quaver! This game is for everyone - casual and seasoned.    
-              We have a community of developers from all over the globe contributing to the open-source game, so join in on the fun!
-          </p>
-          
-        </div>
-        <div class="col-sm-12 col-md-3">
-          <h4 class="footer-title">Links</h4>
-          <div class="row">
-            <div class="col">
-              <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="https://blog.quavergame.com">Blog</a></li>
-                <li><a href="https://twitter.com/QuaverGame">Twitter</a></li>
-              </ul>
+        <div class="row">
+            <div class="col-sm-12 col-md-5">
+                <h4 class="footer-title">About Quaver</h4>
+                <p>Quaver is the ultimate community-driven and open-source competitive rhythm game. We're aiming to take the concept of VSRGs to a new level by bringing 
+                    competition and e-sports into the mix.
+                </p>
+                <p>
+                    Although the game may seem difficult at first glance, you don't have to be a pro to play Quaver! This game is for everyone - casual and seasoned.    
+                    We have a community of developers from all over the globe contributing to the open-source game, so join in on the fun!
+                </p>
             </div>
-            <div class="col">
-              <ul>
-                <li><a href="https://discord.gg/nJa8VFr">Discord</a></li>
-                <li><a href="https://github.com/Swan">GitHub</a></li>
-                <li><a href="/login">Login</a></li>
-              </ul>
+            <div class="col-sm-12 col-md-3">
+                <h4 class="footer-title">Links</h4>
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="https://blog.quavergame.com">Blog</a></li>
+                            <li><a href="https://twitter.com/QuaverGame">Twitter</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li><a href="https://discord.gg/nJa8VFr">Discord</a></li>
+                            <li><a href="https://github.com/Swan">GitHub</a></li>
+                            <li><a href="/login">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="col-sm-12 col-md-4">
+                <h4 class="footer-title">Stay in the loop</h4>
+                <p>Keep up to date with our dev blog to find out the latest news about Quaver.</p>
+                <a class="btn btn-rss btn-lg footer-button" href="https://blog.quavergame.com" target="_blank"><i class="fa fa-rss"></i> Read the Dev Blog</a>
+            </div>
         </div>
-        <div class="col-sm-12 col-md-4">
-          <h4 class="footer-title">Stay in the loop</h4>
-          <p>Keep up to date with our dev blog to find out the latest news about Quaver.</p>
-          <a class="btn btn-rss btn-lg footer-button" href="https://blog.quavergame.com" target="_blank"><i class="fa fa-rss"></i> Read the Dev Blog</a>
+        <div class="footer-bottom">
+            <div class="footer-social">
+                <a href="https://twitter.com/QuaverGame" target="_blank" data-toggle="tooltip" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://blog.quavergame.com" target="_blank" data-toggle="tooltip" title="Blog"><i class="fa fa-rss"></i></a>
+                <a href="https://www.twitch.tv/QuaverOfficial" target="_blank" data-toggle="tooltip" title="Twitch"><i class="fab fa-twitch"></i></a>
+                <a href="https://github.com/Swan" target="_blank" data-toggle="tooltip" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <p>Copyright &copy; 2017-2018 <a href="https://github.com/Swan" target="_blank">Swan</a>. All rights reserved.</p>
         </div>
-      </div>
-      <div class="footer-bottom">
-        <div class="footer-social">
-          <a href="https://twitter.com/QuaverGame" target="_blank" data-toggle="tooltip" title="Twitter"><i class="fab fa-twitter"></i></a>
-          <a href="https://blog.quavergame.com" target="_blank" data-toggle="tooltip" title="Blog"><i class="fa fa-rss"></i></a>
-          <a href="https://www.twitch.tv/QuaverOfficial" target="_blank" data-toggle="tooltip" title="Twitch"><i class="fab fa-twitch"></i></a>
-          <a href="https://github.com/Swan" target="_blank" data-toggle="tooltip" title="GitHub"><i class="fab fa-github"></i></a>
-        </div>
-        <p>Copyright &copy; 2017-2018 <a href="https://github.com/Swan" target="_blank">Swan</a>. All rights reserved.</p>
-      </div>
     </div>
-  </footer>
+</footer>

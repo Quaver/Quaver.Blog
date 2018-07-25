@@ -1,70 +1,57 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-    {% include meta.html %}
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/stylesheets/bootstrap.min.css" />
-	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/stylesheets/theme.min.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <link rel="icon" type="image/png" href="https://i.imgur.com/gwl6654.png">
-  </head>
-  <body>
-  <!--
-    <header id="header">
-    <div class="container">
-      <div class="navbar-backdrop">
-        <div class="navbar">
-          <div class="navbar-left">
-            <a class="navbar-toggle"><i class="fa fa-bars"></i></a>
-            <a href="/" class="logo"><img src="{{ site.baseurl }}/assets/images/logo.png" alt="Quaver Logo"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>-->
-  <section class="hero hero-game" style="background-image: url('https://test.quavergame.com/img/carousel/carousel-2.jpg');">
-<div class="overlay"></div>
-<div class="container">
-<div class="hero-block">
-<div class="text-center">
-<img src="https://test.quavergame.com/img/logo-no-text.png" width="15%">
-<h2 class="hero-title">Quaver Blog</h2>
-<p>🎶 Keep up-to-date with the latest news and development!</p>
-</div>
-</div>
-</div>
-</section>
-  <header id="header">
-    <div class="container">
-      <div class="navbar-backdrop">
-        <div class="navbar">
-          <div class="navbar-left">
-            <a class="navbar-toggle"><i class="fa fa-bars"></i></a>
-            <nav class="nav">
-              <ul>
-                <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
-                <li><a href="https://blog.quavergame.com" target="_blank"><i class="fa fa-rss"></i> Dev Blog</a></li>
-                <li><a href="https://twitter.com/QuaverGame" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
-                <li><a href="https://discord.gg/nJa8VFr" target="_blank"><i class="fab fa-discord"></i> Discord</a></li>
-                <li><a href="https://github.com/Swan" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-    {{ content }}
-    {% include analytics.html %}
-	<script id="dsq-count-scr" src="//michaelkant.disqus.com/count.js" async></script>
-	<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  </body>
+    <head>
+        <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+        {% include meta.html %}
+        <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/stylesheets/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/stylesheets/theme.min.css" />
+        <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+        <link rel="icon" type="image/png" href="https://i.imgur.com/gwl6654.png">
+    </head>
+    <body>
+        <section class="hero hero-game" style="background-image: url('https://test.quavergame.com/img/carousel/carousel-2.jpg');">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="hero-block">
+                    <div class="text-center">
+                        <img src="https://test.quavergame.com/img/logo-no-text.png" width="15%">
+                        <h2 class="hero-title">Quaver Blog</h2>
+                        <p>🎶 Keep up-to-date with the latest news and development!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <header id="header">
+            <div class="container">
+                <div class="navbar-backdrop">
+                    <div class="navbar">
+                        <div class="navbar-left">
+                            <a class="navbar-toggle"><i class="fa fa-bars"></i></a>
+                            <nav class="nav">
+                                <ul>
+                                    <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
+                                    <li><a href="https://blog.quavergame.com" target="_blank"><i class="fa fa-rss"></i> Dev Blog</a></li>
+                                    <li><a href="https://twitter.com/QuaverGame" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                                    <li><a href="https://discord.gg/nJa8VFr" target="_blank"><i class="fab fa-discord"></i> Discord</a></li>
+                                    <li><a href="https://github.com/Swan" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        {{ content }}
+        {% include analytics.html %}
+        <script id="dsq-count-scr" src="//michaelkant.disqus.com/count.js" async></script>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    </body>
 </html>
