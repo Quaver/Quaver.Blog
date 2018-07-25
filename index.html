@@ -17,7 +17,7 @@ layout: default
 {% for post in paginator.posts %}
 <div class="post post-md">
 <div class="post-thumbnail">
-<a href="blog-post-medium.html"><img src="/assets/images/blog_preview.jpg" alt="{{ post.title | escape }}"></a>
+<a href="blog-post-medium.html"><img src="/assets/images/blog_preview.jpg" alt="{{ post.title | escape }}" width="320px" height="180px"></a>
 </div>
 <div class="post-block">
 <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | escape }}</a></h2>
