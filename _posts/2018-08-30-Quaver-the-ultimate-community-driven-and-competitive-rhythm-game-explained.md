@@ -95,8 +95,9 @@ Lastly, I personally want to give a huge thanks to all of the contributors of Qu
 * **[ATTang](https://twitter.com/droptable_)** - Difficulty Calculation Efforts
 * **[barrysir](https://github.com/barrysir)** - Difficulty Calculation Efforts
 * **[IR0HA](https://github.com/IR0HAA)** - Default Skin Creation
-* **[Vortex-](https://github.com/VortexCoyote)**- Shader Development & Idea Contributions
+* **[Vortex-](https://github.com/VortexCoyote)** - Shader Development & Idea Contributions
 
+# Lastly 
 
 If you're wanting to help contribute to the game with code, designs, or ideas, or if you're just curious to follow up on its development, feel free to join our [Discord Server](https://discord.gg/nJa8VFr).
 
