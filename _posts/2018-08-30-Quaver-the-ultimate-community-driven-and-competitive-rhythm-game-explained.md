@@ -11,8 +11,7 @@ This is why we're creating **Quaver, the ultimate, community-driven, and competi
 
 # What is Quaver?
 
-<div style="width: 100%; height: 0px; position: relative; padding-bottom: 56.250%;"><iframe src="https://streamable.com/s/cge88/xjvgmc" frameborder="0" width="100%" height="100%" allowfullscreen style="width: 100%; height: 100%; position: absolute;"></iframe></div>
-
+<div style="width: 100%; height: 0px; position: relative; padding-bottom: 56.250%;"><iframe src="https://streamable.com/s/cge88/xjvgmc" frameborder="0" width="100%" height="100%" allowfullscreen style="width: 100%; height: 100%; position: absolute; padding-bottom:5px"></iframe></div>
 
 
 At its core, Quaver is your classic rhythm game. Its genre is defined as a VSRG (Vertical Scrolling Rhythm Game), which essentially means as notes come down from the screen, the objective is to hit them to rhythm of the song.
