@@ -1395,6 +1395,7 @@ section.error-404 form {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  border-bottom: 3px #51c5f9 solid
 }
 
 .hero-game .hero-block {
