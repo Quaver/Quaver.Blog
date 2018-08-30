@@ -61,7 +61,7 @@ Take your gameplay to the next level by customizing the game completely to your 
 
 ### Play Maps at Any Audio Rate
 
-You'll be able to play a map at an audio rate between 0.5x-2.0x. You'll be rewarded for playing maps at higher speeds and penalized for playing them at lower. This should make the game easier to get into for newer players as well, which is something we're aiming to do.
+You'll be able to play a map at an audio rate between 0.5x-2.0x. You'll be rewarded for playing maps at higher speeds and penalized for playing them at lower. This should make the game easier to get into for newer players, as well as more challenging for more seasoned players - which is something we're aiming to do.
 
 ### No Pause Game Modifier
 To a new player, this might seem a little daunting, however to more seasoned rhythm game players, it's become quite the meme that "Pausing is cheating™." This is  why we're introducing a No Pause modifier. When activated, the game wont allow you to pause throughout the song, and after play completion, your score will be marked as having not paused. Whether this will give a reward is still to be discussed.
