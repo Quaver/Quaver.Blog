@@ -14,6 +14,7 @@ This is why we're creating **Quaver, the ultimate, community-driven, and competi
 <div style="width: 100%; height: 0px; position: relative; padding-bottom: 56.250%;"><iframe src="https://streamable.com/s/cge88/xjvgmc" frameborder="0" width="100%" height="100%" allowfullscreen style="width: 100%; height: 100%; position: absolute;"></iframe></div>
 
 
+
 At its core, Quaver is your classic rhythm game. Its genre is defined as a VSRG (Vertical Scrolling Rhythm Game), which essentially means as notes come down from the screen, the objective is to hit them to rhythm of the song.
 
 When released, Quaver is going to be **ran 100% by the community.** This means that game content (new maps, tournaments, etc.) are all created by the community and players are able to collaborate and share their creations with others. The game will be open source - meaning anyone in the world can contribute to its development and add in the features they've always wanted to see in a game.
@@ -56,12 +57,12 @@ While our game client is currently not open source, it will be along with the fi
 
 In addition to the new ranking system and open source game, we've also got some cool features in store for you as well.
 
-* **Advanced Skinning System** - Take your gameplay to the next level by customizing the game completely to your liking. Whether you want a classic DDR-styled arrow skin, or a skin filled with emojis - the limit is your imagination.
-* **Play Maps at Any Audio Rate** - You'll be able to play a map at an audio rate between 0.5x-2.0x. You'll be rewarded for playing maps at higher speeds and penalized for playing them at lower. This should make the game easier to get into for newer players as well, which is something we're aiming to do.
-* **No Pause Game Modifier** - To a new player, this might seem a little daunting, however to more seasoned rhythm game players, it's become quite the meme that "Pausing is cheating™." This is  why we're introducing a **No Pause** modifier. When activated, the game wont allow you to pause throughout the song, and after play completion, your score will be marked as having not paused. Whether this will give a reward is still to be discussed.
-* **Added support for playing and importing maps from your other favorite games** - That's right. If you're coming from other games such as osu!, StepMania or more recently Etterna, you'll be able to load up all your maps and play them directly through Quaver and even import their file formats.
-* **Replays** - Ever wanted to go back and watch that sick score you've just played? We've got you covered here as well with a cool replay system where you'll be able to watch back any score. You can also export them to a file and send them to your friends as well!
-* **Multiplayer/Custom Games** - There's no doubt that multiplayer is a big plus in modern games. We want to give you guys the option to relax and play with your friends online in realtime. We also want to bring out some fresh and new game modes for you guys to try out.
+* **- Advanced Skinning System** - Take your gameplay to the next level by customizing the game completely to your liking. Whether you want a classic DDR-styled arrow skin, or a skin filled with emojis - the limit is your imagination.
+* **- Play Maps at Any Audio Rate** - You'll be able to play a map at an audio rate between 0.5x-2.0x. You'll be rewarded for playing maps at higher speeds and penalized for playing them at lower. This should make the game easier to get into for newer players as well, which is something we're aiming to do.
+* **- No Pause Game Modifier** - To a new player, this might seem a little daunting, however to more seasoned rhythm game players, it's become quite the meme that "Pausing is cheating™." This is  why we're introducing a No Pause modifier. When activated, the game wont allow you to pause throughout the song, and after play completion, your score will be marked as having not paused. Whether this will give a reward is still to be discussed.
+* **- Added support for playing and importing maps from your other favorite games** - That's right. If you're coming from other games such as osu!, StepMania or more recently Etterna, you'll be able to load up all your maps and play them directly through Quaver and even import their file formats.
+* **- Replays** - Ever wanted to go back and watch that sick score you've just played? We've got you covered here as well with a cool replay system where you'll be able to watch back any score. You can also export them to a file and send them to your friends as well!
+* **- Multiplayer/Custom Games** - There's no doubt that multiplayer is a big plus in modern games. We want to give you guys the option to relax and play with your friends online in realtime. We also want to bring out some fresh and new game modes for you guys to try out.
 
 # Conclusion, Release Date, and Development Status
 
