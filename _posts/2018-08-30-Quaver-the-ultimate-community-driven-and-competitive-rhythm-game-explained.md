@@ -79,7 +79,7 @@ Ever wanted to go back and watch that sick score you've just played? We've got y
 
 There's no doubt that multiplayer is a big plus in modern games. We want to give you guys the option to relax and play with your friends online in realtime. We also want to bring out some fresh and new game modes for you guys to try out.
 
-# Conclusion, Release Date, and Development Status
+# Release Date & Development Status
 
 While Quaver is still in its early stages, The goal is to release a playable alpha version on **Steam** this fall. Your feedback is vital to us for fulfilling our goal of creating the ultimate, community-driven and competitve-oriented rhythm game.
 
