@@ -50,10 +50,6 @@ While our game client is currently not open source, it will be along with the fi
 
 ## What Cool Features Does Quaver Have?
 
-<p align="center">
-  <img src="https://i.imgur.com/iICnFkZ.jpg">
-</p>
-
 In addition to the new ranking system and open source game, we've also got some cool features in store for you as well.
 
 ### Advanced Skinning System
