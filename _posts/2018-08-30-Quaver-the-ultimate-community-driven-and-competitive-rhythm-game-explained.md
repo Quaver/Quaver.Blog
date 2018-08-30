@@ -99,6 +99,8 @@ Lastly, I personally want to give a huge thanks to all of the contributors of Qu
 
 ## And Lastly... 
 
+If you've made it this far, thanks for reading, and there will definitely be more frequent updates in the future!
+
 If you're wanting to help contribute to the game with code, designs, or ideas, or if you're just curious to follow up on its development, feel free to join our [Discord Server](https://discord.gg/nJa8VFr).
 
-Thanks for reading, and there will definitely be more frequent updates in the future!
+
