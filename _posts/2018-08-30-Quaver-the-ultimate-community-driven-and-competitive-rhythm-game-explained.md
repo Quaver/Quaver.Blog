@@ -30,7 +30,7 @@ However with Quaver, the goal is to do so much more by taking the concept of rhy
   <img src="https://i.imgur.com/jYHL30s.png">
 </p>
 
-To date, rhythm game players have been "competing" by playing maps (songs/charts) and going for the highest score on that map's leaderboard. AAlthough fun, we realize that it doesn't bring out the full potential in rhythm game players. To combat this, we're introducing a **competitive and elo-based ranking system.**
+To date, rhythm game players have been "competing" by playing maps (songs/charts) and going for the highest score on that map's leaderboard. Although fun, we realize that it doesn't bring out the full potential in rhythm game players. To combat this, we're introducing a **competitive and elo-based ranking system.**
 
 The concept is fairly simple and familiar to other competitive games. You will be queued against other players via a skill-based matchmaking system. The queued players will then play a selection of maps and **compete against each other in realtime.** If you win, you'll rank up. If you lose, you'll rank down.
 
