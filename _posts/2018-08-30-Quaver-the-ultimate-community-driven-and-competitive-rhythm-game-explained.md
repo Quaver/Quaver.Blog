@@ -56,12 +56,27 @@ While our game client is currently not open source, it will be along with the fi
 
 In addition to the new ranking system and open source game, we've also got some cool features in store for you as well.
 
-* **- Advanced Skinning System** - Take your gameplay to the next level by customizing the game completely to your liking. Whether you want a classic DDR-styled arrow skin, or a skin filled with emojis - the limit is your imagination.
-* **- Play Maps at Any Audio Rate** - You'll be able to play a map at an audio rate between 0.5x-2.0x. You'll be rewarded for playing maps at higher speeds and penalized for playing them at lower. This should make the game easier to get into for newer players as well, which is something we're aiming to do.
-* **- No Pause Game Modifier** - To a new player, this might seem a little daunting, however to more seasoned rhythm game players, it's become quite the meme that "Pausing is cheating™." This is  why we're introducing a No Pause modifier. When activated, the game wont allow you to pause throughout the song, and after play completion, your score will be marked as having not paused. Whether this will give a reward is still to be discussed.
-* **- Added support for playing and importing maps from your other favorite games** - That's right. If you're coming from other games such as osu!, StepMania or more recently Etterna, you'll be able to load up all your maps and play them directly through Quaver and even import their file formats.
-* **- Replays** - Ever wanted to go back and watch that sick score you've just played? We've got you covered here as well with a cool replay system where you'll be able to watch back any score. You can also export them to a file and send them to your friends as well!
-* **- Multiplayer/Custom Games** - There's no doubt that multiplayer is a big plus in modern games. We want to give you guys the option to relax and play with your friends online in realtime. We also want to bring out some fresh and new game modes for you guys to try out.
+### Advanced Skinning System
+Take your gameplay to the next level by customizing the game completely to your liking. Whether you want a classic DDR-styled arrow skin, or a skin filled with emojis - the limit is your imagination.
+
+### Play Maps at Any Audio Rate
+
+You'll be able to play a map at an audio rate between 0.5x-2.0x. You'll be rewarded for playing maps at higher speeds and penalized for playing them at lower. This should make the game easier to get into for newer players as well, which is something we're aiming to do.
+
+### No Pause Game Modifier
+To a new player, this might seem a little daunting, however to more seasoned rhythm game players, it's become quite the meme that "Pausing is cheating™." This is  why we're introducing a No Pause modifier. When activated, the game wont allow you to pause throughout the song, and after play completion, your score will be marked as having not paused. Whether this will give a reward is still to be discussed.
+
+### Added support for playing and importing maps from your other favorite games
+
+That's right. If you're coming from other games such as osu!, StepMania or more recently Etterna, you'll be able to load up all your maps and play them directly through Quaver and even import their file formats.
+
+### Replays
+
+Ever wanted to go back and watch that sick score you've just played? We've got you covered here as well with a cool replay system where you'll be able to watch back any score. You can also export them to a file and send them to your friends as well!
+
+### Multiplayer/Custom Games
+
+There's no doubt that multiplayer is a big plus in modern games. We want to give you guys the option to relax and play with your friends online in realtime. We also want to bring out some fresh and new game modes for you guys to try out.
 
 # Conclusion, Release Date, and Development Status
 
@@ -73,14 +88,14 @@ As for a development status, currently, I'm working hard on developing the onlin
 
 Lastly, I personally want to give a huge thanks to all of the contributors of Quaver so far over the past year. Each individual on this list has in some way has added their input to making this game even more awesome.
 
-* **Swan** / [Github](https://github.com/Swan) / [Twitter](https://twitter.com/Swanzana) - Project Lead & Developer
-* **Staravia** / [GitHub](https://github.com/Staravia) - Developing the initial gameplay logic, graphics framework, and Difficulty Calcution Efforts.
-* **AiAe** / [Github](https://github.com/AiAe) / [Twitter](https://twitter.com/aiaegames) - Web Development & Bug Busting
-* **arpia97** / [Github](https://github.com/arpia97) / [Twitter](https://twitter.com/arpia97) - Idea Contributions, Play Testing, & Difficulty Calculation Efforts
-* **ATTang/Droptable_** / [GitHub](https://github.com/droptable0133) / [Twitter](https://twitter.com/droptable_) - Difficulty Calculation Efforts
-* **barrysir** / [GitHub](https://github.com/barrysir) - Difficulty Calculation Efforts
-* **IR0HA** / [GitHub](https://github.com/IR0HAA) - Default Skin Creation
-* **Vortex-** / [GitHub](https://github.com/VortexCoyote) / [Twitter](https://twitter.com/VortexTheGM) - Shader Development & Idea Contributions
+* **[Swan](https://github.com/Swan)** - Project Lead & Developer
+* **[Staravia](https://github.com/Staravia)** - Developing the initial gameplay logic, graphics framework, and Difficulty Calcution Efforts.
+* **[AiAe](https://github.com/AiAe)** - Web Development & Bug Busting
+* **[arpia97](https://twitter.com/arpia97)** - Idea Contributions, Play Testing, & Difficulty Calculation Efforts
+* **[ATTang/Droptable](https://twitter.com/droptable_)** - Difficulty Calculation Efforts
+* **[barrysir](https://github.com/barrysir)** - Difficulty Calculation Efforts
+* **[IR0HA](https://github.com/IR0HAA)** - Default Skin Creation
+* **[Vortex-](https://github.com/VortexCoyote)**- Shader Development & Idea Contributions
 
 
 If you're wanting to help contribute to the game with code, designs, or ideas, or if you're just curious to follow up on its development, feel free to join our [Discord Server](https://discord.gg/nJa8VFr).
