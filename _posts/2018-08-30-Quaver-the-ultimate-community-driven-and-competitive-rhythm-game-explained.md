@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Quaver, the ultimate, community-driven, and competitve rhythm game explained.
+thumbnail: https://i.imgur.com/p5b91nV.png
 author: Swan
 ---
 
