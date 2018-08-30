@@ -74,14 +74,14 @@ As for a development status, currently, I'm working hard on developing the onlin
 
 Lastly, I personally want to give a huge thanks to all of the contributors of Quaver so far over the past year. Each individual on this list has in some way has added their input to making this game even more awesome.
 
-* **Swan** | [Github](https://github.com/Swan) | [Twitter](https://twitter.com/Swanzana) - Project Lead & Developer
-* **Staravia** | [GitHub](https://github.com/Staravia) - Developing the initial gameplay logic, graphics framework, and Difficulty Calcution Efforts.
-* **AiAe** | [Github](https://github.com/AiAe) | [Twitter](https://twitter.com/aiaegames) - Web Development & Bug Busting
-* **arpia97** | [Github](https://github.com/arpia97) | [Twitter](https://twitter.com/arpia97) - Idea Contributions, Play Testing, & Difficulty Calculation Efforts
-* **ATTang/Droptable_** | [GitHub](https://github.com/droptable0133) | [Twitter](https://twitter.com/droptable_) - Difficulty Calculation Efforts
-* **barrysir** | [GitHub](https://github.com/barrysir) - Difficulty Calculation Efforts
-* **IR0HA** | [GitHub](https://github.com/IR0HAA) - Default Skin Creation
-* **Vortex-** | [GitHub](https://github.com/VortexCoyote) | [Twitter](https://twitter.com/VortexTheGM) - Shader Development & Idea Contributions
+* **Swan** / [Github](https://github.com/Swan) / [Twitter](https://twitter.com/Swanzana) - Project Lead & Developer
+* **Staravia** / [GitHub](https://github.com/Staravia) - Developing the initial gameplay logic, graphics framework, and Difficulty Calcution Efforts.
+* **AiAe** / [Github](https://github.com/AiAe) / [Twitter](https://twitter.com/aiaegames) - Web Development & Bug Busting
+* **arpia97** / [Github](https://github.com/arpia97) / [Twitter](https://twitter.com/arpia97) - Idea Contributions, Play Testing, & Difficulty Calculation Efforts
+* **ATTang/Droptable_** / [GitHub](https://github.com/droptable0133) / [Twitter](https://twitter.com/droptable_) - Difficulty Calculation Efforts
+* **barrysir** / [GitHub](https://github.com/barrysir) - Difficulty Calculation Efforts
+* **IR0HA** / [GitHub](https://github.com/IR0HAA) - Default Skin Creation
+* **Vortex-** / [GitHub](https://github.com/VortexCoyote) / [Twitter](https://twitter.com/VortexTheGM) - Shader Development & Idea Contributions
 
 If you're wanting to help contribute to the game with code, designs, or ideas, or if you're just curious to follow up on its development, feel free to join our [Discord Server](https://discord.gg/nJa8VFr).
 
