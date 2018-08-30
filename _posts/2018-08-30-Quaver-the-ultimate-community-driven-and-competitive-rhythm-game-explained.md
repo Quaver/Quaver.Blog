@@ -89,7 +89,7 @@ As for a development status, currently, I'm working hard on developing the onlin
 Lastly, I personally want to give a huge thanks to all of the contributors of Quaver so far over the past year. Each individual on this list has in some way has added their input to making this game even more awesome.
 
 * **[Swan](https://github.com/Swan)** - Project Lead & Developer
-* **[Staravia](https://github.com/Staravia)** - Developing the initial gameplay logic, graphics framework, and Difficulty Calcution Efforts.
+* **[Staravia](https://github.com/Staravia)** - Developing the initial gameplay logic, graphics framework, and Difficulty Calculation Efforts.
 * **[AiAe](https://github.com/AiAe)** - Web Development & Bug Busting
 * **[arpia97](https://twitter.com/arpia97)** - Idea Contributions, Play Testing, & Difficulty Calculation Efforts
 * **[ATTang](https://twitter.com/droptable_)** - Difficulty Calculation Efforts
