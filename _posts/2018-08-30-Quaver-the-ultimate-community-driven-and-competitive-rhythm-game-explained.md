@@ -92,7 +92,7 @@ Lastly, I personally want to give a huge thanks to all of the contributors of Qu
 * **[Staravia](https://github.com/Staravia)** - Developing the initial gameplay logic, graphics framework, and Difficulty Calcution Efforts.
 * **[AiAe](https://github.com/AiAe)** - Web Development & Bug Busting
 * **[arpia97](https://twitter.com/arpia97)** - Idea Contributions, Play Testing, & Difficulty Calculation Efforts
-* **[ATTang/Droptable](https://twitter.com/droptable_)** - Difficulty Calculation Efforts
+* **[ATTang](https://twitter.com/droptable_)** - Difficulty Calculation Efforts
 * **[barrysir](https://github.com/barrysir)** - Difficulty Calculation Efforts
 * **[IR0HA](https://github.com/IR0HAA)** - Default Skin Creation
 * **[Vortex-](https://github.com/VortexCoyote)**- Shader Development & Idea Contributions
