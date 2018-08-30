@@ -82,6 +82,7 @@ Lastly, I personally want to give a huge thanks to all of the contributors of Qu
 * **IR0HA** / [GitHub](https://github.com/IR0HAA) - Default Skin Creation
 * **Vortex-** / [GitHub](https://github.com/VortexCoyote) / [Twitter](https://twitter.com/VortexTheGM) - Shader Development & Idea Contributions
 
+
 If you're wanting to help contribute to the game with code, designs, or ideas, or if you're just curious to follow up on its development, feel free to join our [Discord Server](https://discord.gg/nJa8VFr).
 
 Thanks for reading, and there will definitely be more frequent updates in the future!
