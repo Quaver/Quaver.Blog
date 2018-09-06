@@ -137,19 +137,19 @@ Given the open source nature of Quaver, we're looking at implementing a backer s
 
 Here's some of the perks we're looking at for this system:
 
-- • The ability to complete extra in-game challenges for rewards such as unlockable titles and emblems to display on your in-game playercard.
-- • A badge and color in the in-game chat that shows you're a backer.
-- • A badge on the website for your user profile that shows you're a backer.
-- • The ability to change your username once for free every 30 days.
-- • Access to new in-game features before they're released.
-- • The ability to create group chats in-game.
-- • Faster in-game map download speeds.
-- • The ability to upload more maps at a given time.
-- • The ability to customize your profile on the website with backgrounds and banners.
-- • A role in our Discord server that shows you've supported the game.
-- • Access to an in-game backer-only chat channel.
-- • Access to a Discord backer-only chat channel.
-- • Higher vote priority with feature requests.
+- • **The ability to complete extra in-game challenges for rewards such as unlockable titles and emblems to display on your in-game playercard.**
+- • **A badge and color in the in-game chat that shows you're a backer.**
+- • **A badge on the website for your user profile that shows you're a backer.**
+- • **The ability to change your username once for free every 30 days.**
+- • **Access to new in-game features before they're released.**
+- • **The ability to create group chats in-game.**
+- • **Faster in-game map download speeds.**
+- • **The ability to upload more maps at a given time.**
+- • **The ability to customize your profile on the website with backgrounds and banners.**
+- • **A role in our Discord server that shows you've supported the game.**
+- • **Access to an in-game backer-only chat channel.**
+- • **Access to a Discord backer-only chat channel.**
+- • **Higher vote priority with feature requests.**
 
 We're most likely looking at implementing the backer system in different tiers and depending on which tier you support us with will determine the amount of extra features you receive.
 
