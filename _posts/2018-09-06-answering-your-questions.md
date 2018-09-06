@@ -117,6 +117,8 @@ If you're a C# developer looking to help out now before we open source the game 
 
 If you're interested in helping develop our difficulty calculator, we're looking for people to assist with this as well in terms of both theory and maths. 
 
+We're also looking for artists who are great at UI design. If this is something that interests you, feel free to hit us up!.
+
 If you're interested in contributing with the both of these, feel free to join our [Discord Server](https://discord.gg/nJa8VFr) where all of our developers, contributors, and supporters are chatting.
 
 # "Business Model" Questions
