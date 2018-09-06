@@ -103,7 +103,7 @@ There have been a **ton** of questions regarding Quaver being open source, so we
 
 A good portion of Quaver will be open source. Our game client, our website, and external libraries will all be available under an open source license. Our game server and other netcode related repositories will not be open source however.
 
-### What open source license will you use?
+### Which open source license will you use?
 
 Different portions of the game will have different licenses. Our external libraries such as our game framework, [Wobble](https://github.com/Quaver/Wobble), will definitely be licensed under MIT. As far as the game client itself, this is still being discussed, as it is one of the most challenging decisions to make.
 
