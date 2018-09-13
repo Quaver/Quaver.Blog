@@ -12,7 +12,7 @@ After reading, be sure to leave a vote on our Twitter Poll to let us know your t
 
 # A Deeper Look at Pausing in Rhythm Games
 
-<iframe width="1366" height="768" src="https://www.youtube.com/embed/adX-FaqJPuA?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/adX-FaqJPuA?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Rhythm gaming by nature is a stamina draining activity. The longer you play, the more difficult it is to keep the same level of endurance you've initially had. Because of this, pausing during gameplay is frowned upon by a good portion of players. 
 
