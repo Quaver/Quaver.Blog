@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: To Pause, Or Not To Pause. You Decide!
-thumbnail: https://imgur.com/ukPmxYE
+thumbnail: https://i.imgur.com/ukPmxYE.png
 author: Swan
 ---
 
