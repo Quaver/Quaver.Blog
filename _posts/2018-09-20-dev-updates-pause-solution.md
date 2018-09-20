@@ -48,6 +48,8 @@ This is how we've come up with our solution - **Holding To Pause.**
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/DMEsznaZvTA" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
+ 
+ 
 Here's how it works:
 
 During gameplay, you will still be allowed to pause. **However, doing so will invalidate your score and prevent it from being submitted. It will also mark your score and replay as having paused throughout gameplay.** Once paused, you will also be met with a notification letting you know that your score is now invalid.
@@ -68,13 +70,16 @@ As far as development goes, I've been working very hard on getting Quaver online
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/BAad6Kf6yL4" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
+ 
+ 
 The first step in the process was authentication & server login. When users log into the game server for the first time, they're met with a screen that asks them to choose a unique username. This is directly connected to your Steam ID, so whenever you log into the game, you'll have the same username along with all of your existing stats. No extra passwords to remember! Quick and easy.
 
 ### In-game Chat!
 
-
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/zD4_MO41opY" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
+ 
+ 
 The second thing that's being worked on currently is the in-game chat. Currently it's setup in a way that feels like home. We're going for a more Discord-y/IRC feel to the in-game chat. That means public chat channels, and private chats! The overall design still has to be polished, but the concept is still there.
 
 I'm also exploring the task of creating private group chats in-game, so if you'd like to invite a couple of your friends for a private chat, you'll be able to do so!
