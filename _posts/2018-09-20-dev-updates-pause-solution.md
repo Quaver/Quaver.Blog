@@ -38,7 +38,7 @@ As you can see in the above image, the results for the poll are **extremely clos
 
 **Doing this larger scale poll allowed us to see that we needed a better solution than what we initially proposed.**
 
-On the first day the poll went live, A community member by the name of *DDMythical* **[wrote up an insightful post on why he believes that pausing is not suitable for Quaver](https://docs.google.com/document/d/12i6gkz4pL0oFTHzFBC5NyyIKye_mgFM-MXVrDifKj4I/edit).** They also address the possible solutions that both we and other community members have brought up and goes into depth why they aren't feasible. Lastly, DD also provides a solution as to we should handle it. It's a very good post, and it is suggested to give it a read **before** taking a look at our solution.
+On the first day the poll went live, A community member by the name of *DDMythical* **[wrote up an insightful post on why they believe that pausing is not suitable for Quaver](https://docs.google.com/document/d/12i6gkz4pL0oFTHzFBC5NyyIKye_mgFM-MXVrDifKj4I/edit).** They also address the possible solutions that both we and other community members have brought up and goes into depth why they aren't feasible. Lastly, DD also provides a solution as to we should handle it. It's a very good post, and it is suggested to give it a read **before** taking a look at our solution.
 
 ### Our Solution - Holding To Pause
 
