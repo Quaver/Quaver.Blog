@@ -18,7 +18,7 @@ If you're new around here, last week we asked the community for input as to how 
 
 ### Reiterating The Issue
 
-If you're lost about this whole pausing thing, don't worry! We'll explain everything briefly here.
+If you're lost about the whole pausing thing, don't worry! We'll explain everything briefly here.
 
 **Note: The following content on pausing is only applicable to ranked leaderboard scores. You will NOT be able to pause in our competitive, elo-based ranking system OR any other multiplayer setting where you are playing against others in real-time.**
 
