@@ -6,7 +6,7 @@ thumbnail: https://i.imgur.com/h4HPuI5.jpg
 author: Swan
 ---
 
-Phew! This past week has been super hectic and very productive for Quaver development! Last week we ran a [poll on Twitter](https://twitter.com/QuaverGame/status/1040289230151405569) and opened up the floor for everyone to give their thoughts on how we should handle pausing, and we were met with extremely surprising results. For this week's dev blog, we're going to dive deeper into these results and discuss the solution we've come up with. Furthermore, we're also going to **showcase some development updates in regards to getting Quaver ready for testing! **
+Phew! This past week has been super hectic and very productive for Quaver development! Last week we ran a [poll on Twitter](https://twitter.com/QuaverGame/status/1040289230151405569) and opened up the floor for everyone to give their thoughts on how we should handle pausing, and we were met with extremely surprising results. For this week's dev blog, we're going to dive deeper into these results and discuss the solution we've come up with. Furthermore, we're also going to **showcase some development updates in regards to getting Quaver ready for testing!**
 
 # Pausing - Your Feedback & Our Solution!
 
