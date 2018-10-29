@@ -37,12 +37,19 @@ Allow you to head to different screens in the game.
 Displays your stats for the currently selected game mode (4K or 7K). The playercard design is still fairly rough and will most likely be beefed up in the future.
 
 • Displays the title "Offline Player," which in the future we want to make unlockable via challenges.
+
 • A "?" symbol used as a placeholder for your competitve rank badge.
+
 • Overall Performance Rating
+
 • Overall Accuracy
+
 • Global game mode Rank
+
 • Country game mode Rank
+
 • Play Count
+
 • Total Competitive Wins
 
 #### Jukebox
