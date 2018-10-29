@@ -6,7 +6,7 @@ thumbnail: https://i.imgur.com/V2mJeJK.jpg
 author: Swan & Staravia
 ---
 
-Has it been a month already? Time flies! We've been a bit quiet lately, but don't mistake our silence for no progress. Actually, it's quite the opposite! Over the past month, there has been a **TON** of development updates, and we're excited to share them all with you!
+Has it been a month already? Time flies! We've been a bit quiet lately, but don't mistake our silence for no progress. Actually, it's quite the opposite! Over the past month, there have been a **TON** of development updates, and we're excited to share them all with you!
 
 As we start to enter the final stages before our alpha release and open sourcing the Quaver game client, **the main focus at hand is polishing the game and working on our Steam store page.** This means completing tasks such as redesigning our game's UI to give it a fresh look, adding in any missing key features, and fixing any bugs we come across. Once this is complete, we should be good to go to open up the game for players to try and give us feedback on. Let me be clear that our goal is to provide a great first gameplay experience for our players, so your patience is appreciated while we're getting things in order. With that being said, let's get going!
 
@@ -120,7 +120,7 @@ Chat badges now have a border around them to make them look a bit better than th
 
 #### Chat Message Performance Improvements
 
-This is more of a nitty-gritty development improvement, but chat message containers now have a form of object pooling, so that performance is in tip-top shape no matter the amount of messages the user has backlogged
+This is more of a nitty-gritty development improvement, but chat message containers now have a form of object pooling, so that performance is in tip-top shape no matter the amount of messages the user has backlogged.
 
 ---   
 
