@@ -24,6 +24,8 @@ As stated before, the main focus at hand is redesigning our game screens and pol
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/fRfA6TjLs5A" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
+--- 
+
 As you can see, the main menu is pretty simple, but featureful. It comes with the following features/design choices:
 
 #### Middle Panels
@@ -72,6 +74,8 @@ Special thanks to both [@saucictb](https://twitter.com/saucictb) and [@leisssw](
 Another thing I've been working on is improving the overall quality of the in-game chat. This means handling optimizations, design updates, and adding new features.
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/gA6ZTEgKljA" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+
+---
 
 Visually, the chat is still very much the same as when we showed you the first time. We've changed the color a bit of the interface and also added something handy to the right. Here's what we've done: 
 
@@ -126,6 +130,8 @@ One thing Quaver didn't have previously and does/is being worked on now is SV. I
 Here's a taste:
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/uanWl2LnkOo" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+
+---
 
 **Track List**:
 
@@ -195,6 +201,8 @@ AiAe has been working super hard on developing the front-end of our website. It 
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/OYyxb2O6oNY" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
+---
+
 Currently AiAe has been working on putting together probably one of the most frequently viewed pages - the profile page. This page shows information about an individual user such as who they are, where they're from, their rank/scores for each game mode, their uploaded maps, and a bunch of other data related to the user. This is still a work in progress, but we've decided to show you the current work that's being done on it so far. If you have any suggestions of things that you'd like to see on profile pages, tweet us [@QuaverGame](https://twitter.com/QuaverGame)!
 
 ## API
@@ -219,11 +227,15 @@ In light of now having working mapset and score submission, I've also began impl
 
 Here's all the currently implemented endpoints related to obtaining user information:
 
-* • **[/users/full/:id](https://tsapi.quavergame.com/v1/users/full/3)** - Obtain full user information for a given player. Receive information such as their username, id, usergroups and privileges, and their current stats and ranks.
-* • **[/users?id=&name=](https://tsapi.quavergame.com/v1/users?id=3&name=test1)** - Obtain non-full information about multiple users at a time.
-* • **[/users/search/:name](https://tsapi.quavergame.com/v1/users/search/sw)** - Find users by a given search term
-* • **[/users/scores/best?id=&mode=](https://tsapi.quavergame.com/v1/users/scores/best?id=3&mode=1)** - Retrieve a user's best (top play) scores by a given game mode.
-* • **[/users/scores/recent?id=&mode=](https://tsapi.quavergame.com/v1/users/scores/recent?id=3&mode=1)** - Retrieve a user's recent scores by a given game mode. This includes non-top play and failed scores.
+• **[/users/full/:id](https://tsapi.quavergame.com/v1/users/full/3)** - Obtain full user information for a given player. Receive information such as their username, id, usergroups and privileges, and their current stats and ranks.
+
+• **[/users?id=&name=](https://tsapi.quavergame.com/v1/users?id=3&name=test1)** - Obtain non-full information about multiple users at a time.
+
+• **[/users/search/:name](https://tsapi.quavergame.com/v1/users/search/sw)** - Find users by a given search term
+
+• **[/users/scores/best?id=&mode=](https://tsapi.quavergame.com/v1/users/scores/best?id=3&mode=1)** - Retrieve a user's best (top play) scores by a given game mode.
+
+• **[/users/scores/recent?id=&mode=](https://tsapi.quavergame.com/v1/users/scores/recent?id=3&mode=1)** - Retrieve a user's recent scores by a given game mode. This includes non-top play and failed scores.
 
 ---
 
@@ -231,8 +243,9 @@ Here's all the currently implemented endpoints related to obtaining user informa
 
 Here's all the currently implemented endpoints related to obtaining mapset information:
 
-* • **[/mapsets/:id](https://tsapi.quavergame.com/v1/mapsets/7)** - Obtain full information about an entire mapset.
-* • **[/maps/:id](https://tsapi.quavergame.com/v1/maps/16)** - Obtain information about an individual map.
+• **[/mapsets/:id](https://tsapi.quavergame.com/v1/mapsets/7)** - Obtain full information about an entire mapset.
+
+• **[/maps/:id](https://tsapi.quavergame.com/v1/maps/16)** - Obtain information about an individual map.
 
 ---
 
@@ -240,7 +253,7 @@ Here's all the currently implemented endpoints related to obtaining mapset infor
 
 Here's all the currently implemented endpoints related to scores.
 
-* • **[/scores/map:id](https://tsapi.quavergame.com/v1/scores/map/18)** - Obtain all top scores on an individual map.
+• **[/scores/map:id](https://tsapi.quavergame.com/v1/scores/map/18)** - Obtain all top scores on an individual map.
 
 ---
 
@@ -248,8 +261,9 @@ Here's all the currently implemented endpoints related to scores.
 
 Here's all the currently implemented endpoints related to our server:
 
-* • **[/server/users/online](https://tsapi.quavergame.com/v1/server/users/online)** - Retrieve a count of the number of users that are currently online.
-* • **[/server/users/online/:id](https://tsapi.quavergame.com/v1/server/users/online/4)** - Check if an individual user is connected to the server.
+• **[/server/users/online](https://tsapi.quavergame.com/v1/server/users/online)** - Retrieve a count of the number of users that are currently online.
+
+• **[/server/users/online/:id](https://tsapi.quavergame.com/v1/server/users/online/4)** - Check if an individual user is connected to the server.
 
 All in all, more endpoints are being implemented as more data is being stored for Quaver. We plan to have proper API documentation in the future as we start to solidify some of our endpoints.
 
