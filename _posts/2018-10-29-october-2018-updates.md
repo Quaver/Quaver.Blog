@@ -84,8 +84,11 @@ You can now view the list of currently online users on the right-hand side!
 There are 4 filtering options for the online user list:
 
 • **All** - Displays all online users.
+
 • **Friends** - Not implemented currently, but it'll display your current online friends.
+
 • **Country** - Displays users that are online in your country
+
 • **Search** - The ability to filter and search for users by username.
           
 ### User Client Statuses
