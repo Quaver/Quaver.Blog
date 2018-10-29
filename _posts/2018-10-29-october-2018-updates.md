@@ -42,6 +42,8 @@ As you can see, the main menu is pretty simple, but featureful. It comes with th
      * • If you've noticed, there isn't any place to enter a username or password. This is because your **Quaver account is linked to your Steam account.** No extra usernames or passwords to remember! Whenever you log into the game server the first time, you'll be prompted to select a unique username.
 * • **Exit Game Dialog** - When pressing ESC in the main menu, it'll come up with a dialog asking you if you'd like to exit the game - Something standard used across the majority of games.
 
+---
+
 Overall, I'm very happy with the way the menu looks for now. As with everything, there's always room for improvements, and we'll definitely be making them overtime when we get more feedback and have more requirements to fulfill. At the moment, we're looking at having a simple and minimalistic design that is quick to implement, so we can get the game out to you all as soon as possible for feedback on what to improve.
 
 Special thanks to both [@saucictb](https://twitter.com/saucictb) and [@leisssw](https://twitter.com/leisssw) for their artwork on the main menu background.
@@ -65,7 +67,9 @@ Visually, the chat is still very much the same as when we showed you the first t
 * • **Joining Chat Channels** - There's now a dedicated interface for joining and leaving different chat channels.
 * • **Chat Badge/Avatar Improvements** - Chat badges now have a border around them to make them look a bit better than they were before as well as avatars.
 * • **Chat Message Performance Improvements** - This is more of a nitty-gritty development improvement, but chat message containers now have a form of object pooling, so that performance is in tip-top shape no matter the amount of messages the user has backlogged.
-   
+
+---   
+
 There's still a ton of work to do on the chat such as fixing that nasty avatar bug, other graphical errors such as those not-so-great-looking divider lines, and implementing a solid interface for when you click on users in the online list. The overall design for the chat interface is still a work in progress, but it's great to see things finally start coming together in a workable state.
 
 ## Gameplay Improvements & Additions
