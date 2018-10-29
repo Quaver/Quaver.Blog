@@ -222,6 +222,8 @@ Here's all the currently implemented endpoints related to obtaining user informa
 * • **[/users/scores/best?id=&mode=](https://tsapi.quavergame.com/v1/users/scores/best?id=3&mode=1)** - Retrieve a user's best (top play) scores by a given game mode.
 * • **[/users/scores/recent?id=&mode=](https://tsapi.quavergame.com/v1/users/scores/recent?id=3&mode=1)** - Retrieve a user's recent scores by a given game mode. This includes non-top play and failed scores.
 
+---
+
 #### Mapsets/Maps
 
 Here's all the currently implemented endpoints related to obtaining mapset information:
@@ -229,11 +231,15 @@ Here's all the currently implemented endpoints related to obtaining mapset infor
 * • **[/mapsets/:id](https://tsapi.quavergame.com/v1/mapsets/7)** - Obtain full information about an entire mapset.
 * • **[/maps/:id](https://tsapi.quavergame.com/v1/maps/16)** - Obtain information about an individual map.
 
+---
+
 #### Scores
 
 Here's all the currently implemented endpoints related to scores.
 
 * • **[/scores/map:id](https://tsapi.quavergame.com/v1/scores/map/18)** - Obtain all top scores on an individual map.
+
+---
 
 #### Server
 
