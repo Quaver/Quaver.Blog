@@ -26,21 +26,40 @@ As stated before, the main focus at hand is redesigning our game screens and pol
 
 As you can see, the main menu is pretty simple, but featureful. It comes with the following features/design choices:
 
-* • **Middle Panels** -  Allow you to head to different screens in the game.
-* • **Playercard** - Displays your stats for the currently selected game mode (4K or 7K). The playercard design is still fairly rough and will most likely be beefed up in the future.
-     * • Displays the title "Offline Player," which in the future we want to make unlockable via challenges.
-     * • A "?" symbol used as a placeholder for your competitve rank badge.
-     * • Overall Performance Rating
-     * • Overall Accuracy
-     * • Global game mode Rank
-     * • Country game mode Rank
-     * • Play Count
-     * • Total Competitive Wins
-* • **Jukebox** - Chill out and listen to all your favorite tracks in the main menu with our music player. It also comes with an audio visualizer if you're looking for something pretty to look at!
-* • **Menu Tips** - If you're lost, have no fear! We've got menu tips. Every 10 seconds a new menu tip will display and give you some information about the game.
-* • **Navigation Bar** - With our navigation bar, you can open up different screens/dialogs such as chat. It also comes with the ability to log in and out of the server whenever you choose.
-     * • If you've noticed, there isn't any place to enter a username or password. This is because your **Quaver account is linked to your Steam account.** No extra usernames or passwords to remember! Whenever you log into the game server the first time, you'll be prompted to select a unique username.
-* • **Exit Game Dialog** - When pressing ESC in the main menu, it'll come up with a dialog asking you if you'd like to exit the game - Something standard used across the majority of games.
+#### Middle Panels
+
+Allow you to head to different screens in the game.
+
+#### Playercard
+
+Displays your stats for the currently selected game mode (4K or 7K). The playercard design is still fairly rough and will most likely be beefed up in the future.
+
+• Displays the title "Offline Player," which in the future we want to make unlockable via challenges.
+• A "?" symbol used as a placeholder for your competitve rank badge.
+• Overall Performance Rating
+• Overall Accuracy
+• Global game mode Rank
+• Country game mode Rank
+• Play Count
+• Total Competitive Wins
+
+#### Jukebox
+
+Chill out and listen to all your favorite tracks in the main menu with our music player. It also comes with an audio visualizer if you're looking for something pretty to look at!
+
+#### Menu Tips
+
+If you're lost, have no fear! We've got menu tips. Every 10 seconds a new menu tip will display and give you some information about the game.
+
+#### Navigation Bar
+
+With our navigation bar, you can open up different screens/dialogs such as chat. It also comes with the ability to log in and out of the server whenever you choose.
+
+**Hint:** If you've noticed, there isn't any place to enter a username or password. This is because your **Quaver account is linked to your Steam account.** No extra usernames or passwords to remember! Whenever you log into the game server the first time, you'll be prompted to select a unique username.
+
+#### Exit Game Dialog
+
+When pressing ESC in the main menu, it'll come up with a dialog asking you if you'd like to exit the game - Something standard used across the majority of games.
 
 ---
 
