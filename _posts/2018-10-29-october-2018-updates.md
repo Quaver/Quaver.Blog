@@ -8,7 +8,7 @@ author: Swan & Staravia
 
 Has it been a month already? Time flies! We've been a bit quiet lately, but don't mistake our silence for no progress. Actually, it's quite the opposite! Over the past month, there has been a **TON** of development updates, and we're excited to share them all with you!
 
-As we start to enter the final stages before our alpha release and open sourcing the Quaver game client, **the main focus at hand is polishing the game and working on our Steam store page.** This means completing tasks such as redesigning our game's UI to give it a fresh look, adding in any missing key features, and fixing any bugs we come across. **Once this is complete, we should be good to go to open up the game for players to try and give us feedback on.** Let me be clear that our goal is to provide a great first gameplay experience for our players, so **your patience is appreciated** while we're getting things in order. With that being said, let's get going!
+As we start to enter the final stages before our alpha release and open sourcing the Quaver game client, **the main focus at hand is polishing the game and working on our Steam store page.** This means completing tasks such as redesigning our game's UI to give it a fresh look, adding in any missing key features, and fixing any bugs we come across. Once this is complete, we should be good to go to open up the game for players to try and give us feedback on. Let me be clear that our goal is to provide a great first gameplay experience for our players, so your patience is appreciated while we're getting things in order. With that being said, let's get going!
 
 # Quaver Client Updates
 
