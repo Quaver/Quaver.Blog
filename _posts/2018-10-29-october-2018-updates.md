@@ -26,21 +26,21 @@ As stated before, the main focus at hand is redesigning our game screens and pol
 
 As you can see, the main menu is pretty simple, but featureful. It comes with the following features/design choices:
 
-* **Middle Panels** -  Allow you to head to different screens in the game.
-* **Playercard** - Displays your stats for the currently selected game mode (4K or 7K). The playercard design is still fairly rough and will most likely be beefed up in the future.
-     * Displays the title "Offline Player," which in the future we want to make unlockable via challenges.
-     * A "?" symbol used as a placeholder for your competitve rank badge.
-     * Overall Performance Rating
-     * Overall Accuracy
-     * Global game mode Rank
-     * Country game mode Rank
-     * Play Count
-     * Total Competitive Wins
-* **Jukebox** - Chill out and listen to all your favorite tracks in the main menu with our music player. It also comes with an audio visualizer if you're looking for something pretty to look at!
-* **Menu Tips** - If you're lost, have no fear! We've got menu tips. Every 10 seconds a new menu tip will display and give you some information about the game.
-* **Navigation Bar** - With our navigation bar, you can open up different screens/dialogs such as chat. It also comes with the ability to log in and out of the server whenever you choose.
-     * If you've noticed, there isn't any place to enter a username or password. This is because your **Quaver account is linked to your Steam account.** No extra usernames or passwords to remember! Whenever you log into the game server the first time, you'll be prompted to select a unique username.
-* **Exit Game Dialog** - When pressing ESC in the main menu, it'll come up with a dialog asking you if you'd like to exit the game - Something standard used across the majority of games.
+* • **Middle Panels** -  Allow you to head to different screens in the game.
+* • **Playercard** - Displays your stats for the currently selected game mode (4K or 7K). The playercard design is still fairly rough and will most likely be beefed up in the future.
+     * • Displays the title "Offline Player," which in the future we want to make unlockable via challenges.
+     * • A "?" symbol used as a placeholder for your competitve rank badge.
+     * • Overall Performance Rating
+     * • Overall Accuracy
+     * • Global game mode Rank
+     * • Country game mode Rank
+     * • Play Count
+     * • Total Competitive Wins
+* • **Jukebox** - Chill out and listen to all your favorite tracks in the main menu with our music player. It also comes with an audio visualizer if you're looking for something pretty to look at!
+* • **Menu Tips** - If you're lost, have no fear! We've got menu tips. Every 10 seconds a new menu tip will display and give you some information about the game.
+* • **Navigation Bar** - With our navigation bar, you can open up different screens/dialogs such as chat. It also comes with the ability to log in and out of the server whenever you choose.
+     * • If you've noticed, there isn't any place to enter a username or password. This is because your **Quaver account is linked to your Steam account.** No extra usernames or passwords to remember! Whenever you log into the game server the first time, you'll be prompted to select a unique username.
+* • **Exit Game Dialog** - When pressing ESC in the main menu, it'll come up with a dialog asking you if you'd like to exit the game - Something standard used across the majority of games.
 
 Overall, I'm very happy with the way the menu looks for now. As with everything, there's always room for improvements, and we'll definitely be making them overtime when we get more feedback and have more requirements to fulfill. At the moment, we're looking at having a simple and minimalistic design that is quick to implement, so we can get the game out to you all as soon as possible for feedback on what to improve.
 
@@ -54,17 +54,17 @@ Another thing I've been working on is improving the overall quality of the in-ga
 
 Visually, the chat is still very much the same as when we showed you the first time. We've changed the color a bit of the interface and also added something handy to the right. Here's what we've done: 
 
-* **Online User List** - You can now view the list of currently online users on the right-hand side!
+* • **Online User List** - You can now view the list of currently online users on the right-hand side!
      * **Filtering Options** - There are 4 filtering options for the online user list:
           * All - Displays all online users.
           * Friends - Not implemented currently, but it'll display your current online friends.
           * Country - Displays users that are online in your country
           * Search - The ability to filter and search for users by username.
-     * **User Client Statuses** - Show off to the world what you're doing in-game - whether you're idle in the menus, playing a map, watching a replay, or paused in-game - all other online users will be able to check out what you're up to!
-     * **User Privilege Groups** - You should never have to worry about about wondering if a user is an admin, developer, or moderator on the server. On the online list, it'll display their name and avatar as the same color as their user privilege group.
-* **Joining Chat Channels** - There's now a dedicated interface for joining and leaving different chat channels.
-* **Chat Badge/Avatar Improvements** - Chat badges now have a border around them to make them look a bit better than they were before as well as avatars.
-* **Chat Message Performance Improvements** - This is more of a nitty-gritty development improvement, but chat message containers now have a form of object pooling, so that performance is in tip-top shape no matter the amount of messages the user has backlogged.
+     * • **User Client Statuses** - Show off to the world what you're doing in-game - whether you're idle in the menus, playing a map, watching a replay, or paused in-game - all other online users will be able to check out what you're up to!
+     * • **User Privilege Groups** - You should never have to worry about about wondering if a user is an admin, developer, or moderator on the server. On the online list, it'll display their name and avatar as the same color as their user privilege group.
+* • **Joining Chat Channels** - There's now a dedicated interface for joining and leaving different chat channels.
+* • **Chat Badge/Avatar Improvements** - Chat badges now have a border around them to make them look a bit better than they were before as well as avatars.
+* • **Chat Message Performance Improvements** - This is more of a nitty-gritty development improvement, but chat message containers now have a form of object pooling, so that performance is in tip-top shape no matter the amount of messages the user has backlogged.
    
 There's still a ton of work to do on the chat such as fixing that nasty avatar bug, other graphical errors such as those not-so-great-looking divider lines, and implementing a solid interface for when you click on users in the online list. The overall design for the chat interface is still a work in progress, but it's great to see things finally start coming together in a workable state.
 
@@ -172,31 +172,31 @@ In light of now having working mapset and score submission, I've also began impl
 
 Here's all the currently implemented endpoints related to obtaining user information:
 
-* **[/users/full/:id](https://tsapi.quavergame.com/v1/users/full/3)** - Obtain full user information for a given player. Receive information such as their username, id, usergroups and privileges, and their current stats and ranks.
-* **[/users?id=&name=](https://tsapi.quavergame.com/v1/users?id=3&name=test1)** - Obtain non-full information about multiple users at a time.
-* **[/users/search/:name](https://tsapi.quavergame.com/v1/users/search/sw)** - Find users by a given search term
-* **[/users/scores/best?id=&mode=](https://tsapi.quavergame.com/v1/users/scores/best?id=3&mode=1)** - Retrieve a user's best (top play) scores by a given game mode.
-* **[/users/scores/recent?id=&mode=](https://tsapi.quavergame.com/v1/users/scores/recent?id=3&mode=1)** - Retrieve a user's recent scores by a given game mode. This includes non-top play and failed scores.
+* • **[/users/full/:id](https://tsapi.quavergame.com/v1/users/full/3)** - Obtain full user information for a given player. Receive information such as their username, id, usergroups and privileges, and their current stats and ranks.
+* • **[/users?id=&name=](https://tsapi.quavergame.com/v1/users?id=3&name=test1)** - Obtain non-full information about multiple users at a time.
+* • **[/users/search/:name](https://tsapi.quavergame.com/v1/users/search/sw)** - Find users by a given search term
+* • **[/users/scores/best?id=&mode=](https://tsapi.quavergame.com/v1/users/scores/best?id=3&mode=1)** - Retrieve a user's best (top play) scores by a given game mode.
+* • **[/users/scores/recent?id=&mode=](https://tsapi.quavergame.com/v1/users/scores/recent?id=3&mode=1)** - Retrieve a user's recent scores by a given game mode. This includes non-top play and failed scores.
 
 #### Mapsets/Maps
 
 Here's all the currently implemented endpoints related to obtaining mapset information:
 
-* **[/mapsets/:id](https://tsapi.quavergame.com/v1/mapsets/7)** - Obtain full information about an entire mapset.
-* **[/maps/:id](https://tsapi.quavergame.com/v1/maps/16)** - Obtain information about an individual map.
+* • **[/mapsets/:id](https://tsapi.quavergame.com/v1/mapsets/7)** - Obtain full information about an entire mapset.
+* • **[/maps/:id](https://tsapi.quavergame.com/v1/maps/16)** - Obtain information about an individual map.
 
 #### Scores
 
 Here's all the currently implemented endpoints related to scores.
 
-* **[/scores/map:id](https://tsapi.quavergame.com/v1/scores/map/18)** - Obtain all top scores on an individual map.
+* • **[/scores/map:id](https://tsapi.quavergame.com/v1/scores/map/18)** - Obtain all top scores on an individual map.
 
 #### Server
 
 Here's all the currently implemented endpoints related to our server:
 
-* **[/server/users/online](https://tsapi.quavergame.com/v1/server/users/online)** - Retrieve a count of the number of users that are currently online.
-* **[/server/users/online/:id](https://tsapi.quavergame.com/v1/server/users/online/4)** - Check if an individual user is connected to the server.
+* • **[/server/users/online](https://tsapi.quavergame.com/v1/server/users/online)** - Retrieve a count of the number of users that are currently online.
+* • **[/server/users/online/:id](https://tsapi.quavergame.com/v1/server/users/online/4)** - Check if an individual user is connected to the server.
 
 All in all, more endpoints are being implemented as more data is being stored for Quaver. We plan to have proper API documentation in the future as we start to solidify some of our endpoints.
 
