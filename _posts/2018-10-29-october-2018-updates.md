@@ -75,17 +75,38 @@ Another thing I've been working on is improving the overall quality of the in-ga
 
 Visually, the chat is still very much the same as when we showed you the first time. We've changed the color a bit of the interface and also added something handy to the right. Here's what we've done: 
 
-* • **Online User List** - You can now view the list of currently online users on the right-hand side!
-     * • **Filtering Options** - There are 4 filtering options for the online user list:
-          * • All - Displays all online users.
-          * • Friends - Not implemented currently, but it'll display your current online friends.
-          * • Country - Displays users that are online in your country
-          * • Search - The ability to filter and search for users by username.
-     * • **User Client Statuses** - Show off to the world what you're doing in-game - whether you're idle in the menus, playing a map, watching a replay, or paused in-game - all other online users will be able to check out what you're up to!
-     * • **User Privilege Groups** - You should never have to worry about about wondering if a user is an admin, developer, or moderator on the server. On the online list, it'll display their name and avatar as the same color as their user privilege group.
-* • **Joining Chat Channels** - There's now a dedicated interface for joining and leaving different chat channels.
-* • **Chat Badge/Avatar Improvements** - Chat badges now have a border around them to make them look a bit better than they were before as well as avatars.
-* • **Chat Message Performance Improvements** - This is more of a nitty-gritty development improvement, but chat message containers now have a form of object pooling, so that performance is in tip-top shape no matter the amount of messages the user has backlogged.
+### Online User List
+
+You can now view the list of currently online users on the right-hand side!
+
+### Filtering Options
+
+There are 4 filtering options for the online user list:
+
+• **All** - Displays all online users.
+• **Friends** - Not implemented currently, but it'll display your current online friends.
+• **Country** - Displays users that are online in your country
+• **Search** - The ability to filter and search for users by username.
+          
+### User Client Statuses
+
+Show off to the world what you're doing in-game - whether you're idle in the menus, playing a map, watching a replay, or paused in-game - all other online users will be able to check out what you're up to!
+
+### User Privilege Groups
+
+You should never have to worry about about wondering if a user is an admin, developer, or moderator on the server. On the online list, it'll display their name and avatar as the same color as their user privilege group.
+
+### Joining Chat Channels
+
+There's now a dedicated interface for joining and leaving different chat channels.
+
+### Chat Badge/Avatar Improvements
+
+Chat badges now have a border around them to make them look a bit better than they were before as well as avatars.
+
+### Chat Message Performance Improvements
+
+This is more of a nitty-gritty development improvement, but chat message containers now have a form of object pooling, so that performance is in tip-top shape no matter the amount of messages the user has backlogged
 
 ---   
 
