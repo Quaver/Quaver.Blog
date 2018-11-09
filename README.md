@@ -1,10 +1,6 @@
 
 # Quaver.Blog [![Blog](https://img.shields.io/badge/Blog-Read-blue.svg)](https://blog.quavergame.com) [![Discord](https://discordapp.com/api/guilds/354206121386573824/widget.png?style=shield)](https://discord.gg/nJa8VFr)
 
-<p align="center"> 
-  <img src="https://eggplants.org/9du6q8.jpg">
-</p>
-
 >📚 Keep up-to-date with Quaver's development by reading the official [blog](https://blog.quavergame.com/).
 
 >Powered by [Jekyll Now](http://www.jekyllnow.com/).
