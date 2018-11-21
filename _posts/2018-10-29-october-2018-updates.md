@@ -187,8 +187,10 @@ The amount of weight an individual hit is accounted for is **determined by the d
 Here is the equation used in its calculation:
 
 <p align="center">
-  <img src="https://i.imgur.com/MBaVMZk.png">
+  <img src="https://i.imgur.com/BMrDbu6.gif">
 </p>
+
+Note: x is a value between 0 and 1 that is inside the marv and hitMiss domain.
 
 The reason we've decided to experiment with this type of system is because **accuracy is a major and important aspect in how Quaver will be played.** With this type of system, we're able to reward players more for being accurate, and the performance of plays is considerably easier to measure with this type of system rather than the former. From our experience, it seems to play fairly well and gives precise accuracy% results based on the overall quality of the play. As always, there's always room for change and improvement in the early stages of the game's life.
 
