@@ -78,6 +78,7 @@ gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-paginate
+  - jekyll-json-feed
 
 paginate: 5
 paginate_path: "/blog/page:num/"
