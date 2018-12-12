@@ -4,6 +4,7 @@ comments: true
 title: To Pause, Or Not To Pause. You Decide!
 thumbnail: https://i.imgur.com/ukPmxYE.png
 author: Swan
+short_text: If you're a previous VSRG player, I'm sure you're aware that the subject of pausing during gameplay is very controversial.
 ---
 
 If you're a previous VSRG player, I'm sure you're aware that the subject of pausing during gameplay is very controversial. Over the past few weeks, we've been watching over discussions that have happened in our [Discord Server](https://discord.gg/nJa8VFr) from players on both sides of the fence - both making valid points on each stance for whether it should or shouldn't be allowed. Because of its contentiousness, this week we're getting you involved! We want you to decide how we should handle pausing in Quaver!

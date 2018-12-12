@@ -4,6 +4,7 @@ comments: true
 title: Quaver, the ultimate, community-driven, and competitve rhythm game explained.
 thumbnail: https://i.imgur.com/p5b91nV.png
 author: Swan
+short_text: A year ago today, Staravia and myself (Swan), had a similar vision. The both of us being passionate rhythm gamers, we wanted something new.
 ---
 
 A year ago today, [Staravia](https://github.com/Staravia) and myself ([Swan](https://github.com/Swan)), had a similar vision. The both of us being passionate rhythm gamers, we wanted something new. We wanted to take the already existing concept of online rhythm games and transform it into something the world hasn't seen yet. We wanted to give rhythm game players a platform to have their voices heard and a place to show off their skills at a higher and more competitive level. And lastly, we wanted a game where the community is involved in each step of the development process.

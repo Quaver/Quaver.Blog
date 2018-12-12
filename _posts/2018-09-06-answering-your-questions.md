@@ -4,6 +4,7 @@ comments: true
 title: Answering Your Questions about Quaver
 thumbnail: https://i.imgur.com/D9s2REX.jpg
 author: Swan
+short_text: Thank you all so much for the overwhelming support on last week's reveal/blog post! To be honest, we did not expect it to have as big of a reach as it did!
 ---
 
 Thank you all so much for the overwhelming support on last week's reveal/blog post! To be honest, we did not expect it to have as big of a reach as it did! The support and love you're showing us so far has made us even more motivated to provide you with a great game to play.

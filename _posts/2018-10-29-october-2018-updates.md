@@ -4,6 +4,7 @@ comments: true
 title: October 2018 - Development Update
 thumbnail: https://i.imgur.com/V2mJeJK.jpg
 author: Swan & Staravia
+short_text: Has it been a month already? Time flies!
 ---
 
 Has it been a month already? Time flies! We've been a bit quiet lately, but don't mistake our silence for no progress. Actually, it's quite the opposite! Over the past month, there have been a **TON** of development updates, and we're excited to share them all with you!
