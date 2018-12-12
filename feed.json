@@ -7,8 +7,7 @@ layout: null
         {
             "id": "{{ post.url | absolute_url | sha1 }}",
             "title": {{ post.title | jsonify }},
-            "summary": {{ post.seo_description | jsonify }},
-            "content_text": {{ post.content | strip_html | strip_newlines | jsonify }},
+            "short_text": {{ post.short_text | strip_html | strip_newlines | jsonify }},
             "url": "{{ post.url | absolute_url }}",
             {% if post.image.size > 1 %}"image": {{ post.image | jsonify }},{% endif %}
             {% if post.link.size > 1 %}"external_url": "{{ post.link }}",{% endif %}
