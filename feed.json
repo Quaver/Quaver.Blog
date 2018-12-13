@@ -2,8 +2,9 @@
 layout: null
 ---
 {
+"code": "200",
 "items": [
-    {% for post in site.posts limit:36 %}
+    {% for post in site.posts limit:10 %}
         {
             "id": "{{ post.url | absolute_url | sha1 }}",
             "title": {{ post.title | jsonify }},
