@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Ingame-Downloading, Performance Improvements & More! | Quaver v0.13.0 Release
+title: Quaver v0.13.0 - Ingame-Downloading, Performance Improvements & More!
 thumbnail: https://i.imgur.com/gl3uu8Z.jpg
 author: Swan
 short_text: Quaver v0.13 has now been released! After almost two weeks since 0.12, we're proud to share what we've got done. With in-game downloading, performance improvements, and a heap of bug fixes and quality of life changes, there's a ton of updates...
