@@ -33,7 +33,7 @@ Since the last update, the community has submitted a ton of bugs and features th
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/UzPA75VNMdU" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
-The newest big feature in this update is the introduction of in-game downloading. Instead of heading to the website and manually downloading songs, you can now download mapsets directly in-game. For now, it functions just about the same as the website, and we'll be looking at implementing more filter options in the future.
+The newest big feature in this update is the introduction of in-game downloading. Instead of heading to the website and manually downloading songs, you can now download mapsets directly in-game. For now, the search and filters function just about the same as the website, and we'll be looking at implementing more filter options in the future.
 
 During the alpha period, in-game downloading will be available and free to use for all alpha testers. After the period is over, we may add some limitations to downloading for non-backer users, such as a download limit per day. However, this is still to be decided, and we'll cross that bridge when we get there. But for now, enjoy the downloading.
 
