@@ -134,6 +134,8 @@ Both of these modifiers are strictly for practice and will not be counted for gl
 
 Developed by [YaLTeR](https://github.com/Quaver/Quaver/pull/544).
 
+---
+
 ### Mirror
 
 <p align="center">
@@ -146,6 +148,8 @@ With this modifier, the game will flip the map horizontally which mirrors the or
 Using this modifier will count towards global rankings.
 
 Developed by [Swan](https://github.com/Quaver/Quaver/pull/545).
+
+---
 
 ### Half Rates
 
