@@ -70,8 +70,8 @@ This is definitely a great feature to have and it's relatively unique. The idea 
 ### Customizability
 
 <p align="center">
-  <img src="https://i.imgur.com/BAIrygI.png" width="400px" height="225px">
-  <img src="https://i.imgur.com/7vNBRw3.png" width="400px" height="225px">
+  <img src="https://i.imgur.com/BAIrygI.png" width="200px" height="125px">
+  <img src="https://i.imgur.com/7vNBRw3.png" width="200px" height="125px">
 </p>
 
 We realize that the majority our players come from already existing rhythm games. One of the main goals of Quaver is to provide a familiar experience for seasoned rhythm game players by taking the best concepts from our predecessors while expanding upon them and combining them into one "ultimate" game. The editor is no different. We built it with customizability in mind, so no matter which game or editor you come from, you can feel right at home in little time with Quaver's.
@@ -113,8 +113,8 @@ We've also added a ton of new modifiers for you to try out including Inverse & F
 ### Inverse & Full Long Note Modifier
 
 <p align="center">
-  <img src="https://i.imgur.com/Kt481A1.jpg" width="400px" height="225px">
-  <img src="https://i.imgur.com/SqGGdMg.jpg" width="400px" height="225px">
+  <img src="https://i.imgur.com/Kt481A1.jpg" width="200px" height="125px">
+  <img src="https://i.imgur.com/SqGGdMg.jpg" width="200px" height="125px">
 </p>
 
 In addition to "No Long Notes", we've also implemented "Inverse" and "Full LN" modifiers. These essentially act as the reverse of No Long Notes where they make the map entirely of LNs. However, they do have some differences.
@@ -134,8 +134,8 @@ Developed by [YaLTeR](https://github.com/Quaver/Quaver/pull/544).
 ### Mirror
 
 <p align="center">
-  <img src="https://i.imgur.com/gpsjzaL.jpg" width="400px" height="225px">
-  <img src="https://i.imgur.com/qLDgNAz.jpg" width="400px" height="225px">
+  <img src="https://i.imgur.com/gpsjzaL.jpg" width="200px" height="125px">
+  <img src="https://i.imgur.com/qLDgNAz.jpg" width="200px" height="125px">
 </p>
 
 With this modifier, the game will flip the map horizontally which mirrors the original. 
@@ -170,7 +170,6 @@ Developed by [Sublimity](https://github.com/Quaver/Quaver/pull/529).
 
 ### Combo Alerts
 
-
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/O7C29SOAnn8" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 [Song Credit: Hyper Potions - Ski](https://www.youtube.com/watch?v=e_s00Hfo4VA)
@@ -195,7 +194,7 @@ Developed by [Swan](https://github.com/Quaver/Quaver/pull/554).
 
 ## Windows 7 & Linux Support
 
-<p align="center"><img src="https://i.imgur.com/X9eexz5.png" width="400px" height="225px"> <img src="https://i.imgur.com/0JZ6Kx9.jpg" width="400px" height="225px"></p>
+<p align="center"><img src="https://i.imgur.com/X9eexz5.png" width="200px" height="125px"> <img src="https://i.imgur.com/0JZ6Kx9.jpg" width="200px" height="125px"></p>
 
 Previously, Quaver had a few compatibility issues with Windows 7 and Linux. These have now been identified, fixed and are now available on Steam.
 
