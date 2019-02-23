@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Quaver v0.14 - The Editor, Ranking Criteria, New Mods & Much More!
+title: Quaver v0.14.0 - The Editor, Ranking Criteria, New Mods & Much More!
 thumbnail: https://i.imgur.com/dDRdFOP.jpg
 author: Swan
 short_text: Hey, friends! We're back and have just released version 0.14 of Quaver, and it is by far our BIGGEST update yet! This time around, we've implemented a map editor, ranking criteria, Windows 7 & Linux Support for Steam, new game modifiers, and so much more! This update definitely marks the turning point for Quaver...
