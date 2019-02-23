@@ -82,7 +82,9 @@ Notable customizables/features include:
 * • The ability to use either a mouse or keyboard as input for the editor
 * • Customizable beat snap colors (supports colors from most major games)
 * • Easy support for both bar and arrow skins within the editor
-.
+
+---
+
 ### Realtime Difficulty Calculation
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/FnaGMs8G-sA" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
