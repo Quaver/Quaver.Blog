@@ -45,7 +45,7 @@ Restart your Steam client, and the game will automatically update for you.
 
 **Non-Alpha Testers**
 
-You can grab the latest version of the game on [GitHub](https://github.com/Quaver/Quaver/releases/tag/0.14.0), but you will not be able to access any online features.
+You can grab the latest version of the game on [GitHub](https://github.com/Quaver/Quaver/releases/tag/0.14), but you will not be able to access any online features.
 
 ## The Editor
 
