@@ -168,6 +168,7 @@ As with every update, we're always adding more ways to customize the game. This 
 ### Lane Covers
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/AcBJLeRd_XQ" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+---
 
 [Song Credit: Our Stolen Theory - United (L.A.O.S Remix)](https://www.youtube.com/watch?v=rnWXN8m6drc)
 
@@ -178,6 +179,7 @@ Developed by [Sublimity](https://github.com/Quaver/Quaver/pull/529).
 ### Combo Alerts
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/O7C29SOAnn8" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+---
 
 [Song Credit: Hyper Potions - Ski](https://www.youtube.com/watch?v=e_s00Hfo4VA)
 
