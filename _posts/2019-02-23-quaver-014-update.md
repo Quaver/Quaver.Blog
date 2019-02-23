@@ -56,6 +56,7 @@ This editor took around a month and a half to develop and is loaded with a ton o
 ### Layers - A New Way to Create!
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/bT4DpCm9H0Q" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+---
 
 With Quaver's editor, we've introduced an entirely new way to create, structure, and think about maps. It's called **Layering.**
 
@@ -85,12 +86,14 @@ Notable customizables/features include:
 ### Realtime Difficulty Calculation
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/FnaGMs8G-sA" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+---
 
 One thing we've noticed that alot of editors lack is the ability to see how difficult a map is in its respective game while you're in the editor. With this feature, the difficulty of the map is recalculated whenever you make changes, so you have an idea of how difficult the map is without any hassle.
 
 ### Hot Reloading
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/NRvBDyaijbQ" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+---
 
 Another cool feature of this editor is the ability to modify the .qua file of your maps while editing. In some circumstances, this may be necessary for people, so we've made it so it will detect any outside changes to the .qua file and ask you to reload the map while editing.
 
