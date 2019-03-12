@@ -172,7 +172,7 @@ As with every update, we're always adding more ways to customize the game. This 
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/AcBJLeRd_XQ" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 ---
 
-[Song Credit: Our Stolen Theory - United (L.A.O.S Remix)](https://www.youtube.com/watch?v=rnWXN8m6drc)
+[Song Credit: "Our Stolen Theory - United (L.A.O.S Remix)"](https://www.youtube.com/watch?v=rnWXN8m6drc)
 
 We've now made the process of creating, using, and customizing lane covers so much simpler. You're now able to create lane covers for both the top and bottom of the playfield, as well as adjust their sizes and the options menu.
 
@@ -183,7 +183,7 @@ Developed by [Sublimity](https://github.com/Quaver/Quaver/pull/529).
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://www.youtube.com/embed/O7C29SOAnn8" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 ---
 
-[Song Credit: Hyper Potions - Ski](https://www.youtube.com/watch?v=e_s00Hfo4VA)
+[Song Credit: "Hyper Potions - Ski"](https://www.youtube.com/watch?v=e_s00Hfo4VA)
 
 In addition, we've now implemented combo alerts. Whenever your combo reaches multiples of 100, a sound effect and image will be played. You have the liberty to add as many sound effects and alert images as you'd like!
 
