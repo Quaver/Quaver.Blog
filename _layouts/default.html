@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+        {% if page.redirect_url %}
+        <meta http-equiv="Refresh" content="0; url={{ page.redirect_url }}" />
+        {% endif %}
+                                                                        
         <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
         {% include meta.html %}
         <!--[if lt IE 9]>
@@ -15,24 +19,27 @@
         <link rel="icon" type="image/png" href="https://i.imgur.com/gwl6654.png">
     </head>
     <body>
-        <section class="hero hero-game" style="background-image: url('https://i.imgur.com/EszGV5W.jpg');">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="hero-block">
-                    <div class="text-center">
-                        <img src="https://i.imgur.com/fKZxp1D.png" width="15%">
-                        <h2 class="hero-title">Quaver Blog</h2>
-                        <p>🎶 Keep up-to-date with the latest news and development!</p>
+        {% if page.redirect_url %}
+        {% else %}
+            <section class="hero hero-game" style="background-image: url('https://i.imgur.com/EszGV5W.jpg');">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="hero-block">
+                        <div class="text-center">
+                            <img src="https://i.imgur.com/fKZxp1D.png" width="15%">
+                            <h2 class="hero-title">Quaver Blog</h2>
+                            <p>🎶 Keep up-to-date with the latest news and development!</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        {{ content }}
-        {% include analytics.html %}
-        <script id="dsq-count-scr" src="//michaelkant.disqus.com/count.js" async></script>
-        <script
-            src="https://code.jquery.com/jquery-3.3.1.min.js"
-            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-            crossorigin="anonymous"></script>
+            </section>
+            {{ content }}
+            {% include analytics.html %}
+            <script id="dsq-count-scr" src="//michaelkant.disqus.com/count.js" async></script>
+            <script
+                src="https://code.jquery.com/jquery-3.3.1.min.js"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous"></script>
+        {% endif %}
     </body>
 </html>
