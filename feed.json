@@ -11,6 +11,7 @@ layout: null
             "short_text": {{ post.short_text | strip_html | strip_newlines | jsonify }},
             "url": "{{ post.url | absolute_url }}",
             "image": "{{ post.thumbnail | absolute_url }}",
+            "ingame_thumbnail": "{{ post.ingame_thumbnail | absolute_url }}",
             "date_published": "{{ post.date | date_to_xmlschema }}",
             "date_modified": "{{ post.date | date_to_xmlschema }}",
             {% if post.author %}
